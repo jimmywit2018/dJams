@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: Arial;
+    color: white;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #FF851B;
+}
+
+.right {
+    right: 0;
+    background-color: #FF851B;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 500px;
+    border-radius: 50%;
+}
+.bigslide {
+    background-image: url(https://1.bp.blogspot.com/-VFG3MYR1MaQ/V6MW2FHURFI/AAAAAAAAAVI/1uNjEwipJqAmeQdkK-BG4rVq0dSJTxcbQCLcB/s1600/Djams-02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+.bigslide h1 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bigslide p {
+  font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="split left">
+  <div class="centered">
+    <img src="background.jpg" alt="background">
+    <h2>Already a member? </h2>
+    <a href ="registration.html">Click here to Sign in!</a>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <img src="background2.jpg" alt="flipped">
+    <h2>New to the Site?</h2>
+    <a href ="registration.html">Click here to Register!</a>
+  </div>
+</div>
+     <section id="bigslide">
+  <div class="bigslide">
+    <div class="container">
+      <h1 class="slideup">Welcome to dJams</h1>
+      <a href="https://1.bp.blogspot.com/-VFG3MYR1MaQ/V6MW2FHURFI/AAAAAAAAAVI/1uNjEwipJqAmeQdkK-BG4rVq0dSJTxcbQCLcB/s1600/Djams-02.png">
+    </div>
+  </div>
+</section>
+</body>
+</html> 
