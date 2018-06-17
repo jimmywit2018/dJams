@@ -4,7 +4,7 @@ import spotipy
 import pprint
 
 spotify = spotipy.Spotify()
-
+util.prompt_for_user_token
 playlistName = input("What is the name of the playlist you wish to create")
 playlistDescription = input("Short description of the playlist")
 userID = h0m596l5gz014wayiyy29p0gg
