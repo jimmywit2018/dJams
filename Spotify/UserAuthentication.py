@@ -13,7 +13,7 @@ token = util.prompt_for_user_token(username, scope, client_id="b7642ea152d44cbf9
 
 if token:
     sp = spotipy.Spotify(auth=token)
-    print("You have successsfully linked dJbeats to your spotify account")
+    print("You have successsfully linked dJams to your spotify account")
     # sp.trace = False
     # results = sp.current_user_playlists(limit=50)
     # for i, item in enumerate(results['items']):
