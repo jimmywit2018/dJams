@@ -21,7 +21,7 @@ import spotipy.util as util
 #         print(track['name'] + ' - ' + track['artists'][0]['name'])
 # else:
 #     print("Can't get token for", username)
-var scopes = 'user-read-private user-read-email';
+scopes = 'user-read-private user-read-email';
 res.redirect('https://accounts.spotify.com/authorize' +
   '?response_type=code' +
   '&client_id=' + my_client_id +
