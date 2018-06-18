@@ -14,4 +14,5 @@ client_id = "b7642ea152d44cbf95e9d7efd223cc49"
 client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b"
 
 #once get create to work work on adding to it
-user_playlist_create(userID, playlistName, public=True)
+sp = spotipy.Spotify()
+sp.user_playlist_create(userID, playlistName, public=True)
