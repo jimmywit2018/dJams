@@ -4,7 +4,7 @@ import spotipy
 import pprint
 #fix code so the class can be used to be called by a main class
 
-scope = 'user-library-read'
+scope = 'playlist-modify-private'
 spotify = spotipy.Spotify()
 playlistName = input("What is the name of the playlist you wish to create? : ")
 playlistDescription = input("Short description of the playlist? : ")
