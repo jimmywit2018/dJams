@@ -4,18 +4,16 @@ import spotipy.util as util
 
 scope = 'user-library-read'
 username= input("Enter user name: ")
-#if len(sys.argv) > 1:
-#    username = sys.argv[1]
-#else:
-#    print("Usage: %s username" % (sys.argv[0],))
-#    sys.exit()
+
 with open ('clientID.txt', 'rt') as in_file:
     contents_client_id = in_file.read()
+    print(contents_client_id)
 client_id=contents_client_id
 with open ('clientSecret.txt', 'rt') as in_file:
     contents_client_secret = in_file.read()
+    print(contents_client_secret)
 client_secret=contents_client_secret
-#something is up with the userauthentication
+
 token = util.prompt_for_user_token(username, scope, client_id , client_secret, redirect_uri="http://google.com/")
 
 if token:
@@ -26,9 +24,3 @@ if token:
         print(track['name'] + ' - ' + track['artists'][0]['name'])
 else:
     print("Can't get token for", username)
-# scopes = 'user-read-private user-read-email';
-# res.redirect('https://accounts.spotify.com/authorize' +
-#   '?response_type=code' +
-#   '&client_id=' + my_client_id +
-#   (scopes + encodeURIComponent(scopes) : '') +
-#   '&redirect_uri=' + encodeURIComponent(redirect_uri));
