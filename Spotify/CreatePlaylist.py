@@ -21,7 +21,7 @@ token = util.prompt_for_user_token(username, scope="playlist-modify-private", cl
 sp = spotipy.Spotify(auth=token)
 sp.trace = False
 sp.user_playlist_create(username, playlist_name, public=False,)
-track_id="spotify:track:2lUA2flB94XburZIe7BmHZ"
+track_ids="spotify:track:2lUA2flB94XburZIe7BmHZ"
 results = sp.user_playlist_add_tracks(username, playlist_name, track_ids)
 print(results)
 
