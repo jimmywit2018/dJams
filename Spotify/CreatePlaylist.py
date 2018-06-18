@@ -7,13 +7,13 @@ import pprint
 spotify = spotipy.Spotify()
 #something is going on with the user id where it is not accepted need
 #to fix
-playlistName = input("What is the name of the playlist you wish to create")
-playlistDescription = input("Short description of the playlist")
+playlistName = input("What is the name of the playlist you wish to create? : ")
+playlistDescription = input("Short description of the playlist? : ")
 userID = "h0m596l5gz014wayiyy29p0gg"
 client_id = "b7642ea152d44cbf95e9d7efd223cc49"
 client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b"
 
 #once get create to work work on adding to it
-spotipy.oauth2.SpotifyClientCredentials.get_access_token()
+spotipy.oauth2.SpotifyClientCredentials.get_access_token(self)
 sp = spotipy.Spotify(token)
 sp.user_playlist_create(userID, playlistName, public=True)
