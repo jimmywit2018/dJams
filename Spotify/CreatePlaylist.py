@@ -2,9 +2,13 @@ import pprint
 import sys
 import os
 import subprocess
-
 import spotipy
 import spotipy.util as util
+from spotipy.oauth2 import SpotifyClientCredentials
+import spotipy
+
+client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
+sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 scope = 'playlist-modify-private'
 spotify = spotipy.Spotify()
@@ -18,4 +22,7 @@ token = util.prompt_for_user_token(username, scope="playlist-modify-private", cl
 sp = spotipy.Spotify(auth=token)
 sp.trace = False
 sp.user_playlist_create(username, playlist_name, public=False)
-pprint.pprint(playlists)
+
+
+track = input("Name of track you would like to add to playlist: ")
+track_id= sp.search(q='track:' + track, type='track')
