@@ -10,6 +10,7 @@ username= input("Enter user name")
 #    print("Usage: %s username" % (sys.argv[0],))
 #    sys.exit()
 
+#something is up with the userauthentication
 token = util.prompt_for_user_token(username, scope, redirect_uri="http//google.com/")
 
 if token:
