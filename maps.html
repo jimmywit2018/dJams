@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Geographical Location</title>
+  </head>
+
+  <body onload = "loadMap()">
+    <h2>Boston</h2>
+    <div id = "map" style = "width:640px; height:480px;"></div>
+      <script>
+
+        // fake JSON call
+        function getJSONMarkers() {
+          const markers = [
+            {
+              name:  "Wentworth Institute of Technology",
+              location: [42.3377, ,-71.0976]
+            },
+            {
+              name: "Thortons Fenway Grille",
+              location: [42.3428, -71.0988]
+            },
+            {
+              name: "You are Here!",
+              location: [42.335797, -71.0956]
+            }
+          ];
+          return markers;
+        }
+
+        function loadMap() {
+          // Initialize Google Maps
+          const mapOptions = {
+            center:new google.maps.LatLng(42.36, -71.06),
+            zoom: 11
+          }
+          const map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+          // Load JSON Data
+          const hotelMarkers = getJSONMarkers();
+
+          // Initialize Google Markers
+          for(hotel of hotelMarkers) {
+            let marker = new google.maps.Marker({
+              map: map,
+              position: new google.maps.LatLng(hotel.location[0], hotel.location[1]),
+              title: hotel.name
+            })
+          }
+        }
+      </script>
+      <script src = "https://maps.googleapis.com/maps/api/js"></script>
+  </body>
+</html>
