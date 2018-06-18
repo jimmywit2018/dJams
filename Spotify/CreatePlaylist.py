@@ -21,7 +21,7 @@ token = util.prompt_for_user_token(username, scope, client_id="b7642ea152d44cbf9
 if token:
     sp = spotipy.Spotify(auth=token)
     sp.trace = False
-    playlists = sp.user_playlist_create(username, playlis_name,
+    playlists = sp.user_playlist_create(username, playlist_name,
                                         playlist_description)
     pprint.pprint(playlists)
 else:
