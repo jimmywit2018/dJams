@@ -16,7 +16,7 @@ client_id = "b7642ea152d44cbf95e9d7efd223cc49"
 client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b"
 
 #once get create to work work on adding to it
-token = util.prompt_for_user_token(username)
+token = util.prompt_for_user_token(username, client_id="b7642ea152d44cbf95e9d7efd223cc49", client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b" , redirect_uri="http://google.com/")
 
 if token:
     sp = spotipy.Spotify(auth=token)
