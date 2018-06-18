@@ -26,3 +26,4 @@ client_credentials_manager = SpotifyClientCredentials(client_id=client_id, clien
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 track = input("Name of track you would like to add to playlist: ")
 track_id= sp.search(q='track:' + track, type='track')
+pprint.pprint(track_id)
