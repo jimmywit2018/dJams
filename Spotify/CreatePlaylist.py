@@ -19,5 +19,5 @@ token = util.prompt_for_user_token(username, scope="playlist-modify-private", cl
 
 sp = spotipy.Spotify(auth=token)
 sp.trace = False
-playlists = self sp.user_playlist_create(username, playlist_name, public, playlist_description)
+playlists = sp.user_playlist_create(username, playlist_name)
 #pprint.pprint(playlists)
