@@ -7,14 +7,12 @@ username= input("Enter user name: ")
 
 with open ('clientID.txt', 'rt') as in_file:
     contents_client_id = in_file.read()
-    print(contents_client_id)
-client_id=contents_client_id
+
 with open ('clientSecret.txt', 'rt') as in_file:
     contents_client_secret = in_file.read()
-    print(contents_client_secret)
 contents_client_secret
 
-token = util.prompt_for_user_token(username, scope, client_id = "b7642ea152d44cbf95e9d7efd223cc49", client_secret = contents_client_secret)
+token = util.prompt_for_user_token(username, scope, client_id = contents_client_id, client_secret = contents_client_secret, redirect_uri="http://google.com/")
 
 if token:
     sp = spotipy.Spotify(auth=token)
