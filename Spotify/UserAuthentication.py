@@ -9,7 +9,9 @@ username= input("Enter user name: ")
 #else:
 #    print("Usage: %s username" % (sys.argv[0],))
 #    sys.exit()
-
+with open ('lorem.txt', 'rt') as in_file:
+    contents = in_file.read()
+    print(contents)
 #something is up with the userauthentication
 token = util.prompt_for_user_token(username, scope, client_id = "b7642ea152d44cbf95e9d7efd223cc49", client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b", redirect_uri="http://google.com/")
 
