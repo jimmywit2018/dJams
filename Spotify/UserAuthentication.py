@@ -13,6 +13,7 @@ with open ('clientSecret.txt', 'rt') as in_file:
 print(contents_client_secret)
 token = util.prompt_for_user_token(username, scope, client_id = contents_client_id, client_secret = contents_client_secret, redirect_uri="http://google.com/")
 print(client_id)
+print(contents_client_id)
 if token:
     sp = spotipy.Spotify(auth=token)
     results = sp.current_user_saved_tracks()
