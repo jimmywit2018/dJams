@@ -1,6 +1,7 @@
 import sys
 import spotipy
 import spotipy.util as util
+import simplejson as json
 
 scope = 'user-library-read'
 username= input("Enter user name: ")
@@ -14,9 +15,9 @@ token = util.prompt_for_user_token(username, scope, client_id="b7642ea152d44cbf9
 if token:
     sp = spotipy.Spotify(auth=token)
     print("You have successsfully linked dJbeats to your spotify account")
-    results = sp.current_user_saved_tracks()
-    for item in results['items']:
-        track = item['track']
-        print(track['name'] + ' - ' + track['artists'][0]['name'])
+    sp.trace = False
+    results = sp.current_user_playlists(limit=50)
+    for i, item in enumerate(results['items']):
+        print("%d %s" %(i, item['name']))
 else:
     print("Can't get token for", username)
