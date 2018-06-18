@@ -9,7 +9,7 @@ username= input("Enter user name: ")
 #else:
 #    print("Usage: %s username" % (sys.argv[0],))
 #    sys.exit()
-with open ('lorem.txt', 'rt') as in_file:
+with open ('clientID.txt', 'rt') as in_file:
     contents = in_file.read()
     print(contents)
 #something is up with the userauthentication
