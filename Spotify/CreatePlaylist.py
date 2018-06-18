@@ -22,8 +22,8 @@ sp = spotipy.Spotify(auth=token)
 sp.trace = False
 sp.user_playlist_create(username, playlist_name, public=False,)
 
-playlist_id = input("What is the id of the playlist you wish to add songs to? : ")
-results = sp.user_playlist_change_details(username, playlist_id, name=playlist_name, public=False,collaborative=False)
+playlistID = input("What is the id of the playlist you wish to add songs to? : ")
+results = sp.user_playlist_change_details(username, playlist_id=playlistID, name=playlist_name, public=False,collaborative=False)
 print(results)
 
 # track_ids="spotify:track:2lUA2flB94XburZIe7BmHZ"
