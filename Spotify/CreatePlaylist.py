@@ -2,6 +2,7 @@ import sys
 from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy
 import pprint
+import spotipy.util as util
 #fix code so the class can be used to be called by a main class
 
 scope = 'playlist-modify-private'
