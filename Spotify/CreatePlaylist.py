@@ -5,10 +5,7 @@ import subprocess
 
 import spotipy
 import spotipy.util as util
-from spotipy.oauth2 import SpotifyClientCredentials
-client_credentials_manager = SpotifyClientCredentials(client_id='b7642ea152d44cbf95e9d7efd223cc49',
-                                                      client_secret='1094e61f08a845a6b1e9a651fe9a1e2b')
-spotify = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
+
 scope = 'playlist-modify-private'
 spotify = spotipy.Spotify()
 playlist_name = input("What is the name of the playlist you wish to create? : ")
@@ -22,6 +19,5 @@ token = util.prompt_for_user_token(username, scope="playlist-modify-private", cl
 
 sp = spotipy.Spotify(auth=token)
 sp.trace = False
-#sp.user_playlist_create(username, playlist_name)
-spotify.user_playlist_create(username, playlist_name)
+sp.user_playlist_create(username, playlist_name, playlist_description)
 #pprint.pprint(playlists)
