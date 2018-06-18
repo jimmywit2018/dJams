@@ -10,10 +10,13 @@ username= input("Enter user name: ")
 #    print("Usage: %s username" % (sys.argv[0],))
 #    sys.exit()
 with open ('clientID.txt', 'rt') as in_file:
-    contents = in_file.read()
-    print(contents)
+    contents_client_id = in_file.read()
+client_id=contents_client_id
+with open ('clientSecret.txt', 'rt') as in_file:
+    contents_client_secret = in_file.read()
+client_secret=contents_client_secret
 #something is up with the userauthentication
-token = util.prompt_for_user_token(username, scope, client_id = "b7642ea152d44cbf95e9d7efd223cc49", client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b", redirect_uri="http://google.com/")
+token = util.prompt_for_user_token(username, scope, client_id , client_secret, redirect_uri="http://google.com/")
 
 if token:
     sp = spotipy.Spotify(auth=token)
