@@ -2,7 +2,7 @@ import sys
 import spotipy
 import spotipy.util as util
 
-scope = 'user-library-read'
+scope = 'playlist-modify-private'
 username= input("Enter user name: ")
 
 #with open ('clientID.txt', 'rt') as in_file:
