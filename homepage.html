@@ -3,86 +3,65 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {
-    font-family: Arial;
-    color: white;
+* {
+    box-sizing: border-box;
 }
 
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 800px;
 }
 
-.left {
-    left: 0;
-    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-}
 
-.right {
-    right: 0;
-    background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+ahh {
+	position:absolute;
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
 }
-
-.centered img {
-    width: 500px;
-    border-radius: 50%;
-}
-.bigslide {
-    background-image: url(https://1.bp.blogspot.com/-VFG3MYR1MaQ/V6MW2FHURFI/AAAAAAAAAVI/1uNjEwipJqAmeQdkK-BG4rVq0dSJTxcbQCLcB/s1600/Djams-02.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-}
-
-.bigslide h1 {
-  font-size: 34px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.bigslide p {
-  font-size: 20px;
-}
-
 </style>
 </head>
+<body background="images/gradient-background.jpg">
 <body>
 
-<div class="split left">
-  <div class="centered">
-    <img src="images/background.jpg" alt="background">
-    <h2>Already a member? </h2>
-    <a href ="signin.html">Click here to Sign in!</a>
+<h2><center><img src="images/djams_image.png"</h2>
+<div class "ahh">
+<!-- figure out how to input these as actual location instead of hardcoding  -->
+
+<p> Your current location is: Boston, MA </p>
+<p> Decimal latitude and longitude: 42.36, -71.06 </p>
+</div>
+<div class="row">
+  <div class="column" style="background: linear-gradient(white, gray);">
+    <h2>First Step: Complete the survey!</h2>
+    <p>The survey can be taken here:
+	<a href="https://www.surveymonkey.com/r/6L97FW8"> Take the survey!</a>
+	</p>
+  <p> or you could take it here:<br/>
+    <iframe src="https://www.surveymonkey.com/r/6L97FW8" height="300" width="400"></iframe>
+  </div>
+  <div class="column" style="background: linear-gradient(white, gray)">
+    <h2>Next Step: Automatic generation</h2>
+    <p>While dJams is processing your results in order to create your personalized playlist, Take a look at your current location</p>
+	<!-- figure out how to put arrows on map directly on your location at all times -->
+    <iframe src="file:///C:/Users/parsonsj3/Documents/SENIOR%20PROJECT/maps.html" height="300" width="400"></iframe>
+  </div>
+  <div class="column" style="background: linear-gradient(white, gray);">
+    <h2>Current Weather</h2>
+	<!-- take this and convert the raw JSON data to an actual weather report for the time -->
+    <iframe src="http://api.openweathermap.org/data/2.5/weather?q=BOSTON&APPID=64e1289a90c76ae161b66981615e5d2d&units=imperial"</iframe>
   </div>
 </div>
 
-<div class="split right">
-  <div class="centered">
-    <img src="images/background2.jpg" alt="flipped">
-    <h2>New to the Site?</h2>
-    <a href ="registration.html">Click here to Register!</a>
-  </div>
-</div>
-     <section id="bigslide">
-  <div class="bigslide">
-    <div class="container">
-      <h1 class="slideup">Welcome to dJams</h1>
-      <a href="https://1.bp.blogspot.com/-VFG3MYR1MaQ/V6MW2FHURFI/AAAAAAAAAVI/1uNjEwipJqAmeQdkK-BG4rVq0dSJTxcbQCLcB/s1600/Djams-02.png">
-    </div>
-  </div>
-</section>
 </body>
-</html> 
+</html>
