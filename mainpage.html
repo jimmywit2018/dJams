@@ -2,61 +2,40 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-    box-sizing: border-box;
-}
-
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 800px;
-}
-
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-ahh {
-	position:absolute;
-    background-color: lightgrey;
-    width: 300px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
-}
-</style>
+<link rel ="stylesheet" type="text/css" href="mainpage.css">
 </head>
-<body background="images/gradient-background.jpg">
 <body>
 
 <h2><center><img src="images/djams_image.png"</h2>
-<div class "ahh">
-<p> Your current location is: Boston, MA - 02115 </p>
-<p> Decimal latitude and longitude: 42.36, -71.06 </p>
+<div class "secondHeader" style="color:black">
+<!-- figure out how to input these as actual location instead of hardcoding  -->
+
+<p> Your current location is: Boston, MA </p>
+<p> Decimal latitude and longitude: 42.36, -71.06 </p> 
+<!-- this value will be given by the API" -->
 </div>
 <div class="row">
-  <div class="column" style="background: linear-gradient(red,yellow);">
-    <h2>First Step: Complete the survey!</h2>
-    <p>The survey can be taken here:
-	<a href="https://www.surveymonkey.com/r/6L97FW8"> Take the survey!</a>
-	</p>
-  <p> or you could take it here:<br/>
-    <iframe src="https://www.surveymonkey.com/r/6L97FW8" height="300" width="400"></iframe>
+  <div class="column left">
+    <h2>Calendar for the current month:</h2>
+    
+	<a> google calendar api goes here</a>
+	
+  <p> <br/>
+    <iframe src="C:\Users\parsonsj3\Documents\SENIOR PROJECT\images\googlecalendar.jpg" height="300" width="400"></iframe>
   </div>
-  <div class="column" style="background: linear-gradient(red,yellow)">
-    <h2>Next Step: Automatic generation</h2>
-    <p>While dJams is processing your results in order to create your personalized playlist, Take a look at your current location</p>
-    <iframe src="file:///C:/Users/jimji/Documents/GitHub/dJams/maps.html" height="300" width="400"></iframe>
+  <div class="column middle">
+    <h2>Spotify web widget + description of song here</h2>
+    <p></p>
+	<!-- THIS WILL BE REPLACED WITH WEB WIDGET  -->
+    <iframe src="C:\Users\parsonsj3\Documents\SENIOR PROJECT\images\spotifylogo.jpg" height="250" width="250"></iframe>
   </div>
-  <div class="column" style="background: linear-gradient(red,yellow);">
+  <div class="column right">
     <h2>Current Weather</h2>
+	<!-- take this and convert the raw JSON data to an actual weather report for the time -->
     <iframe src="http://api.openweathermap.org/data/2.5/weather?q=BOSTON&APPID=64e1289a90c76ae161b66981615e5d2d&units=imperial"</iframe>
   </div>
+</div>
+<div class="background">
 </div>
 
 </body>
