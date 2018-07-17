@@ -1,11 +1,41 @@
-.column {
-    float: left;
-    width: 33.33%;
+* {
+    box-sizing: border-box;
 }
 
-/* Clear floats after the columns */
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 750px;
+
+}
+.left {
+	width: 25%;
+}
+.right {
+	width: 25%;
+}
+.middle {
+	width: 50%;
+}
+
+
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+.secondHeader {
+	position:absolute;
+    background-color: black;
+    width: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+}
+
+body {
+    background-image: url("images/gradient-background.jpg");
+    background-repeat: no-repeat;
+	background-size: 130%;
 }
