@@ -12,6 +12,7 @@ scope = 'playlist-modify-public'
 token = util.prompt_for_user_token(username, scope, client_id="b7642ea152d44cbf95e9d7efd223cc49", client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b" , redirect_uri="http://google.com/")
 
 if token:
+    print("got into if statement")
     sp = spotipy.Spotify(auth=token)
     sp.trace = False
     results = sp.user_playlist_add_tracks(username, playlist_id, track_ids)
