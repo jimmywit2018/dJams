@@ -25,12 +25,28 @@
     <p></p>
   <iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DXa1rZf8gLhyz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   </div>
-<div class="column right">
-<div id= "openweathermap-widget-5"></div>
-</div>
+<html>
 
-</body>
-
-<script src="mainpage.js"></script>
+<div id="openweathermap-widget-15"></div>
+<script>
+    window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
+    window.myWidgetParam.push({
+        id: 15,
+        cityid: '4930956',
+        appid: '64e1289a90c76ae161b66981615e5d2d&units=imperial',
+        units: 'imperial',
+        containerid: 'openweathermap-widget-15',
+    });
+    (function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.charset = "utf-8";
+        script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(script, s);
+    })();
+</script>
 </html>
 
+</body>
+</html>
