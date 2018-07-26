@@ -3,6 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel ="stylesheet" type="text/css" href="mainpage.css">
+
 </head>
 <body>
 
@@ -11,32 +12,25 @@
 <!-- figure out how to input these as actual location instead of hardcoding  -->
 
 <p> Your current location is: Boston, MA </p>
-<p> Decimal latitude and longitude: 42.36, -71.06 </p> 
+<p> Decimal latitude and longitude: 42.36, -71.06 </p>
 <!-- this value will be given by the API" -->
 </div>
 <div class="row">
   <div class="column left">
     <h2>Calendar for the current month:</h2>
-    
 	<a> google calendar api goes here</a>
-	
-  <p> <br/>
-    <iframe src="C:\Users\parsonsj3\Documents\SENIOR PROJECT\images\googlecalendar.jpg" height="300" width="400"></iframe>
   </div>
   <div class="column middle">
-    <h2>Spotify web widget + description of song here</h2>
+    <h2>Your personalized Playlist</h2>
     <p></p>
-	<!-- THIS WILL BE REPLACED WITH WEB WIDGET  -->
-    <iframe src="C:\Users\parsonsj3\Documents\SENIOR PROJECT\images\spotifylogo.jpg" height="250" width="250"></iframe>
+  <iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DXa1rZf8gLhyz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   </div>
-  <div class="column right">
-    <h2>Current Weather</h2>
-	<!-- take this and convert the raw JSON data to an actual weather report for the time -->
-    <iframe src="http://api.openweathermap.org/data/2.5/weather?q=BOSTON&APPID=64e1289a90c76ae161b66981615e5d2d&units=imperial"</iframe>
-  </div>
-</div>
-<div class="background">
+<div class="column right">
+<div id= "openweathermap-widget-5"></div>
 </div>
 
 </body>
+
+<script src="mainpage.js"></script>
 </html>
+
