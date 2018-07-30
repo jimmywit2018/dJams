@@ -1,7 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+
 .column {
     float: left;
     padding: 10px;
     height: 750px;
+
 }
 .left {
 	width: 25%;
@@ -12,21 +18,24 @@
 .middle {
 	width: 50%;
 }
+
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
-.logo{
-  position:relative;
-  bottom:200px;
+.secondHeader {
+	position:absolute;
+    background-color: black;
+    width: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
 }
 
 body {
-    background-image: url("/images/gradient-background.jpg");
-    background-color: #cccccc;
+    background-image: url("images/gradient-background.jpg");
     background-repeat: no-repeat;
 	background-size: 130%;
 }
-
