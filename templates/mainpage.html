@@ -3,14 +3,17 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel ="stylesheet" type="text/css" href="mainpage.css">
+
 </head>
-<body>
+<body onload ="getLocation()">
+
 <!-- figure out how to input these as actual location instead of hardcoding  -->
 <h2>
   <center>
       <p> Good afternoon, USER! </p>
-      <p> The time is currently: TIME
-      <p> You are currently located at: (latitude, longitude), (CITY, STATE)
+      <p> The time is currently: <span id="clock"></span> </p>
+      <p id="demo"></p>
+
       <!-- this value will be given by the API" -->
 </h2>
 
@@ -18,25 +21,21 @@
 
 
   <div class="column ">
-  <h3><center>Calendar for the current month:</h3>
+  <h2><center>Calendar for the current month:</h2>
 	<a> <center></a>
-  <iframe src="https://calendar.google.com/calendar/embed?src=jimmyp1234123%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="500" height="380" frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://calendar.google.com/calendar/embed?src=jimmyp1234123%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="500" height="500" frameborder="0" scrolling="no"></iframe>
   </div>
 
 
     <div class="column middle">
-      <h2><center>Your personalized Playlist</h2>
+      <h2><center>Your current Playlist:</h2>
       <p></p>
       <center>
-    <iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DXa1rZf8gLhyz" width="300" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DXa1rZf8gLhyz" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media" center></iframe>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
     <div id="logo">
       <center>
     <img src="images/djams_image.png" alt="logo" id="logo" />
@@ -59,6 +58,8 @@
 
 <script src="mainpage.js"></script>
 <script src="mainpage2.js"></script>
+<script src="time.js"></script>
+<script src="latlong.js"></script>
 
 
 
