@@ -1,0 +1,32 @@
+.column {
+    float: left;
+    padding: 10px;
+    height: 750px;
+}
+.left {
+	width: 25%;
+}
+.right {
+	width: 25%;
+}
+.middle {
+	width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+  position:relative;
+  bottom:200px;
+}
+
+body {
+    background-image: url("/images/gradient-background.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+	background-size: 130%;
+}
+

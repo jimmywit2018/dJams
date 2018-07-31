@@ -1,0 +1,136 @@
+<<<<<<< HEAD:mainpage.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel ="stylesheet" type="text/css" href="mainpage.css">
+
+</head>
+<body onload ="getLocation()">
+
+<!-- figure out how to input these as actual location instead of hardcoding  -->
+<h2>
+  <center>
+      <p> Good afternoon, USER! </p>
+      <p> The time is currently: <span id="clock"></span> </p>
+      <p id="demo"></p>
+
+      <!-- this value will be given by the API" -->
+</h2>
+
+<div class="row">
+
+
+  <div class="column ">
+  <h2><center>Calendar for the current month:</h2>
+	<a> <center></a>
+  <iframe src="https://calendar.google.com/calendar/embed?src=jimmyp1234123%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="500" height="500" frameborder="0" scrolling="no"></iframe>
+  </div>
+
+
+    <div class="column middle">
+      <h2><center>Your current Playlist:</h2>
+      <p></p>
+      <center>
+    <iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DXa1rZf8gLhyz" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media" center></iframe>
+<br/>
+<br/>
+<br/>
+
+    <div id="logo">
+      <center>
+    <img src="images/djams_image.png" alt="logo" id="logo" />
+     </div>
+    </div>
+
+
+
+
+<div class="column">
+
+<div id= "openweathermap-widget-5" ></div>
+  <a class="weatherwidget-io" href="https://forecast7.com/en/42d36n71d06/boston/?unit=us" data-label_1="BOSTON" data-label_2="WEATHER" data-theme="original" ></a>
+</div>
+
+
+</body>
+
+
+
+<script src="mainpage.js"></script>
+<script src="mainpage2.js"></script>
+<script src="time.js"></script>
+<script src="latlong.js"></script>
+
+
+
+</html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 800px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ahh {
+	position:absolute;
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+</style>
+</head>
+<body background="images/gradient-background.jpg">
+<body>
+
+<h2><center><img src="images/djams_image.png"</h2>
+<div class "ahh">
+<!-- figure out how to input these as actual location instead of hardcoding  -->
+
+<p> Your current location is: Boston, MA </p>
+<p> Decimal latitude and longitude: 42.36, -71.06 </p>
+</div>
+<div class="row">
+  <div class="column" style="background: linear-gradient(white, gray);">
+    <h2>First Step: Complete the survey!</h2>
+    <p>The survey can be taken here:
+	<a href="https://www.surveymonkey.com/r/6L97FW8"> Take the survey!</a>
+	</p>
+  <p> or you could take it here:<br/>
+    <iframe src="https://www.surveymonkey.com/r/6L97FW8" height="300" width="400"></iframe>
+  </div>
+  <div class="column" style="background: linear-gradient(white, gray)">
+    <h2>Next Step: Automatic generation</h2>
+    <p>While dJams is processing your results in order to create your personalized playlist, Take a look at your current location</p>
+	<!-- figure out how to put arrows on map directly on your location at all times -->
+    <iframe src="file:///C:/Users/parsonsj3/Documents/SENIOR%20PROJECT/maps.html" height="300" width="400"></iframe>
+  </div>
+  <div class="column" style="background: linear-gradient(white, gray);">
+    <h2>Current Weather</h2>
+	<!-- take this and convert the raw JSON data to an actual weather report for the time -->
+    <iframe src="http://api.openweathermap.org/data/2.5/weather?q=BOSTON&APPID=64e1289a90c76ae161b66981615e5d2d&units=imperial"</iframe>
+  </div>
+</div>
+
+</body>
+</html>
+>>>>>>> c4e9fb7e85a15bc5fc563a92169f62ab41265130:templates/homepage.html
