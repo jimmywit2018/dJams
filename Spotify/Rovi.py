@@ -1,4 +1,5 @@
 import requests
+import json
 #create url variables for every type of api call
 
 #make a get request to get the music of mood happy?
@@ -7,8 +8,9 @@ response = requests.get("http://api.rovicorp.com/data/v1.1/descriptor/significan
 print(response.status_code)
 
 #figure out how to get back JSON data
-
+data = response.json()
 #parse said data to get just the song name and artist name
-
+print(type(data))
+print(data)
 # Print the content of the response (the data the server returned)
-print(response.content)
+#print(response.content)
