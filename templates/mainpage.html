@@ -3,50 +3,62 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel ="stylesheet" type="text/css" href="mainpage.css">
-
 </head>
-<body onload ="getLocation()">
 
-<!-- figure out how to input these as actual location instead of hardcoding  -->
+
+
+<body onload ="getLocation();">
+  <!-- Loads location from latlong.js-->
+
+
+
+
+<!-- for Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+  <script>
+setTimeout(func, 5000)
+    var config = {
+      apiKey: "AIzaSyDUuFg9VXZqF7ISzGyuY-an5VncrGJWEO0",
+      authDomain: "djamsproject.firebaseapp.com",
+      databaseURL: "https://djamsproject.firebaseio.com",
+      projectId: "djamsproject",
+      storageBucket: "djamsproject.appspot.com",
+      messagingSenderId: "898726382728"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+<!-- calls for name, time, and location-->
 <h2>
  <center>
-     <p> Good afternoon, USER! </p>
+     <h1>Hello <span id="clientName"></span></h1>
      <p> The time is currently: <span id="clock"></span> </p>
-     <p id="demo"></p>
+     <p id="latlong"></p>
 
-     <!-- this value will be given by the API" -->
 </h2>
+
+
+
 
 <div class="row">
 
-
+<!-- left column for Google calendar -->
  <div class="column ">
  <h2><center></h2>
- <iframe src="https://calendar.google.com/calendar/embed?src=jimmyp1234123%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="400" height="500" frameborder="0" scrolling="no"></iframe>
+ <iframe src="https://calendar.google.com/calendar/embed?src=jimmyp1234123%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="500" height="700" frameborder="0" scrolling="no"></iframe>
  </div>
 
-
+<!-- middle column for spotify/logo -->
    <div class="column middle">
      <h2><center></h2>
      <center>
-   <iframe src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DXa1rZf8gLhyz" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media" center></iframe>
+   <iframe src="https://open.spotify.com/embed/user/22mmmryb7wjhxmyo3xq724fzi/playlist/15Hialvu2gTRntOQWQQ4Aq" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
 
 
 <br/>
 <br/>
 <br/>
 
-
-<div class="footer">
-   <div class="text-center">
-     <font size="5">
-     <a href="mainpage.html">Home</a>
-     |
-     <a href="aboutus.html">About dJams</a>
-     |
-     <a href="logout.html">Log Out</a>
-   </div>
- </div>
    <div id="logo">
 
    <img src="images/djams_image.png" alt="logo" id="logo" />
@@ -54,8 +66,20 @@
    </div>
 
 
+   <div class="footer">
+      <div class="text-center">
+        <font size="5">
+        <a href="mainpage.html">Home</a>
+        |
+        <a href="aboutus.html">About dJams</a>
+        |
+        <a href="logout.html">Log Out</a>
+      </div>
+    </div>
 
 
+
+<!-- right column for weather widgets -->
 <div class="column">
 
 <div id= "openweathermap-widget-5" ></div>
@@ -63,13 +87,70 @@
 </div>
 
 
-
-
+<!-- all JS calls-->
 <script src="mainpage.js"></script>
 <script src="mainpage2.js"></script>
 <script src="time.js"></script>
 <script src="latlong.js"></script>
+<script src="firebase.js"></script>
 
+
+
+
+<!-- Script for calling firebase to get user ID -->
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDUuFg9VXZqF7ISzGyuY-an5VncrGJWEO0",
+    authDomain: "djamsproject.firebaseapp.com",
+    databaseURL: "https://djamsproject.firebaseio.com",
+    projectId: "djamsproject",
+    storageBucket: "djamsproject.appspot.com",
+    messagingSenderId: "898726382728"
+  };
+  firebase.initializeApp(config);
+
+
+function login() {
+  function newLoginHappened(user) {
+    if (user) {
+      // User is signed inspect
+      app(user);
+    } else {
+      var provider = new firebase.auth.GoogleAuthProvider();
+      firebase.auth().signInWithRedirect(provider);
+    }
+  }
+    firebase.auth().onAuthStateChanged(newLoginHappened)
+}
+
+
+  function app(user) {
+    document.getElementById("clientName").innerHTML += user.displayName;
+  }
+
+  window.onload = login;
+
+  getLocation();
+
+  var x = document.getElementById("latlong");
+
+  function getLocation() {
+      if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition);
+      } else {
+          x.innerHTML = "Geolocation is not supported by this browser.";
+      }
+  }
+
+  function showPosition(position) {
+      x.innerHTML = "Latitude: " + position.coords.latitude +
+      "<br>Longitude: " + position.coords.longitude;
+  }
+</script>
 
 
 </html>
