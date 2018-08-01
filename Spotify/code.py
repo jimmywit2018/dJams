@@ -1,19 +1,6 @@
-import sys
-from spotipy.oauth2 import SpotifyClientCredentials
-import spotipy
-import pprint
+import requests
+import json
 
-search_str = input("Name of artist you wish to search for")
-#if len(sys.argv) > 1:
-    #search_str = sys.argv[1]
-#else:
-    #search_str = 'Kendrick'
+response = request.get(curl -X "GET" "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists" -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer BQBY_g1uXrEMgEhC6tXRrc61rud0eeP5bUC8BwvWY2LJxUy5E7NMJEaZ45t5W8R-cAcs8MoPHj0QIT8Shub42zDKC-kwbUXprBOMwoRVlr1bzcRAf11pQpCqVqBm_921hxk0gBKX4ANmB4OXOQKpSlQtRHpFxUQtjNxyx4Z02NMl2mxr")
 
-client_id = "b7642ea152d44cbf95e9d7efd223cc49"
-client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b"
-
-client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
-sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
-
-result = sp.search(search_str)
-pprint.pprint(result)
+print(response.status_code)
