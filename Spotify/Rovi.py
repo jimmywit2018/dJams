@@ -16,21 +16,18 @@ t = hashlib.md5()
 #get unix time as an integer so there are no decimals,
 #possibly print for decoding purposes
 unixTime = int(time.time())
-print(unixTime)
+#print(unixTime)
 
 #create a value for the signature to hash / print for decoding purposes
 sig = apiKey+apiSecret+str(unixTime)
-print(sig)
+print("signature before md5 hash: ", sig)
 
+#hashes the signature for the API call
 m.update(sig.encode('utf8'))
-hashed = m.digest()
-unixString = str(unixTime)
-t.update(unixString.encode('utf8'))
-hashedtime = t.digest()
+hashed = m.hexdigest()
 
 #print hashed values to know if it is matching
 print("hashed value", hashed)
-print("hashed time", hashedtime)
 
 #call API
 response = requests.get("http://api.rovicorp.com/data/v1/album/moods?apikey=u8b9c5u6cwwt3mnns9ubdah6&sig=842156e101f98b356459c08cafbec8c3&albumid=MW0000111184")
