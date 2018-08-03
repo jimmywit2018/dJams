@@ -7,9 +7,8 @@ import hashlib
 apiKey="u8b9c5u6cwwt3mnns9ubdah6"
 apiSecret = "gwGXJdarNB"
 
-#set up hashes
+#set up hash
 m = hashlib.md5()
-t = hashlib.md5()
 
 #create url variables for every type of api call
 
@@ -27,7 +26,7 @@ m.update(sig.encode('utf8'))
 hashed = m.hexdigest()
 
 #print hashed values to know if it is matching
-print("hashed value", hashed)
+#print("hashed value", hashed)
 
 #call API
 response = requests.get("http://api.rovicorp.com/data/v1/album/moods?apikey=u8b9c5u6cwwt3mnns9ubdah6&sig=842156e101f98b356459c08cafbec8c3&albumid=MW0000111184")
