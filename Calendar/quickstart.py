@@ -3,12 +3,18 @@ import datetime
 from apiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file as oauth_file, client, tools
+import os
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
 
 
 def main():
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    print(dir_path)
+    files = [f for f in os.listdir(dir_path) if os.path.isfile(f)]
+    for f in files:
+        print(f)
     """Shows basic usage of the Google Calendar API.
 
     Prints the start and name of the next 10 events on the user's calendar.
