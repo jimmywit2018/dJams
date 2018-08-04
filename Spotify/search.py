@@ -23,9 +23,13 @@ headers = {"Authorization": "Bearer " + token, "Accept": "application/json", "Co
 url = "https://api.spotify.com/v1/search?q=track:"+search_str_song+"%20artist:"+search_str_art+"&type=track"
 response = requests.get(url, headers=headers)
 
-print(response)
+#print(response)
 #print(response.text)
+
+#loads the response into a json_data
 json_data= json.loads(response.text)
+
+
 # playresponse = requests.get("https://api.spotify.com/v1/search?q=%22durga11%22&type=playlist", headers=headers)
 # print(playresponse)
 # print(playresponse.text)
