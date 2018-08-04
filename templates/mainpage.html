@@ -16,7 +16,7 @@
 <!-- for Firebase -->
   <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
   <script>
-
+setTimeout(func, 5000)
     var config = {
       apiKey: "AIzaSyDUuFg9VXZqF7ISzGyuY-an5VncrGJWEO0",
       authDomain: "djamsproject.firebaseapp.com",
@@ -73,7 +73,7 @@
         |
         <a href="aboutus.html">About dJams</a>
         |
-        <a href="testing.html">Log Out</a>
+        <a href="logout.html">Log Out</a>
       </div>
     </div>
 
@@ -97,37 +97,42 @@
 
 
 
-
-
-
 <!-- Script for calling firebase to get user ID -->
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
 <script>
 
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDUuFg9VXZqF7ISzGyuY-an5VncrGJWEO0",
+    authDomain: "djamsproject.firebaseapp.com",
+    databaseURL: "https://djamsproject.firebaseio.com",
+    projectId: "djamsproject",
+    storageBucket: "djamsproject.appspot.com",
+    messagingSenderId: "898726382728"
+  };
+  firebase.initializeApp(config);
+
+
+function login() {
   function newLoginHappened(user) {
     if (user) {
+      // User is signed inspect
       app(user);
     } else {
       var provider = new firebase.auth.GoogleAuthProvider();
       firebase.auth().signInWithRedirect(provider);
     }
   }
-  firebase.auth().onAuthStateChanged(newLoginHappened);
-
+    firebase.auth().onAuthStateChanged(newLoginHappened)
+}
 
 
   function app(user) {
-  document.getElementById("clientName").innerHTML = user.displayName;
+    document.getElementById("clientName").innerHTML += user.displayName;
   }
 
-
-</script>
-
-
-
-<script>
-
-
-
+  window.onload = login;
 
   getLocation();
 
