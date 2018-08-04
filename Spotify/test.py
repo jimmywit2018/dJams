@@ -1,23 +1,14 @@
-import pprint
-import sys
-import os
-import subprocess
-
-import spotipy
-
+# shows artist info for a URN or URL
 import spotipy.util as util
+import spotipy
+import sys
+import pprint
 
-export SPOTIPY_CLIENT_ID='your-spotify-client-id'
-export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
-export SPOTIPY_REDIRECT_URI='your-app-redirect-url'
+scope = "user-read-private"
 username = "h0m596l5gz014wayiyy29p0gg"
+search_str = 'Radiohead'
+token = util.prompt_for_user_token(username, scope, client_id="b7642ea152d44cbf95e9d7efd223cc49", client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b" , redirect_uri="http://google.com/")
 
-token = util.prompt_for_user_token(username)
-
-if token:
-    sp = spotipy.Spotify(auth=token)
-    playlists = sp.user_playlists(username)
-    for playlist in playlists['items']:
-        print(playlist['name'])
-else:
-    print("Can't get token for", username)
+sp = spotipy.Spotify()
+result = sp.search(search_str)
+pprint.pprint(result)
