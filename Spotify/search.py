@@ -11,9 +11,9 @@ username = 'h0m596l5gz014wayiyy29p0gg'
 search_str_song = input("Enter the name of the song you would like to search: ")
 search_str_art = input("Enter name of artist of the song:  ")
 
-client_id = "b7642ea152d44cbf95e9d7efd223cc49"
+client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
 client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
-token = util.prompt_for_user_token(username, scope, client_id="b7642ea152d44cbf95e9d7efd223cc49", client_secret = client_secret , redirect_uri="http://google.com/")
+token = util.prompt_for_user_token(username, scope, client_id=, client_secret = client_secret , redirect_uri="http://google.com/")
 
 #call API
 sp = spotipy.Spotify(auth=token)
