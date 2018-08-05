@@ -1,0 +1,85 @@
+{
+    "tracks": {
+        "@attr": {
+            "page": "1",
+            "perPage": "2",
+            "tag": "disco",
+            "total": "28808",
+            "totalPages": "14404"
+        },
+        "track": [
+            {
+                "@attr": {
+                    "rank": "1"
+                },
+                "artist": {
+                    "mbid": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+                    "name": "Michael Jackson",
+                    "url": "https://www.last.fm/music/Michael+Jackson"
+                },
+                "duration": "293",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "f980fc14-e29b-481d-ad3a-5ed9b4ab6340",
+                "name": "Billie Jean",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Michael+Jackson/_/Billie+Jean"
+            },
+            {
+                "@attr": {
+                    "rank": "2"
+                },
+                "artist": {
+                    "mbid": "f9c1cc73-36ba-4f8d-ba12-7d2490608886",
+                    "name": "Justice",
+                    "url": "https://www.last.fm/music/Justice"
+                },
+                "duration": "244",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3f6248c361c64e47ce893406a1a853dd.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3f6248c361c64e47ce893406a1a853dd.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3f6248c361c64e47ce893406a1a853dd.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3f6248c361c64e47ce893406a1a853dd.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "b42d9226-f8eb-4762-b654-3136fdf52fbc",
+                "name": "D.A.N.C.E.",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Justice/_/D.A.N.C.E."
+            }
+        ]
+    }
+}
