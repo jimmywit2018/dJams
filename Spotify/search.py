@@ -28,7 +28,8 @@ response = requests.get(url, headers=headers)
 
 #loads the response into a json_data
 json_data= json.loads(response.text)
-
+with open('search.json', 'w') as outfile:
+        json.dump(json_data, outfile)
 
 # playresponse = requests.get("https://api.spotify.com/v1/search?q=%22durga11%22&type=playlist", headers=headers)
 # print(playresponse)
