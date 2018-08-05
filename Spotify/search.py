@@ -43,8 +43,6 @@ search_as_byte = str.encode(search)
 #print(type(search_as_byte))\
 m = re.search(search_as_byte, mf)
 print(m.span())
-62Du6uokDy88soDYrn5jqL
-3ePUItz2fKt1F4mntYFDGg
 mf.seek(m.end())
 search_id = "\""
 search_id_as_byte = str.encode(search_id)
