@@ -32,17 +32,26 @@ response = requests.get(url, headers=headers)
 json_data= json.loads(response.text)
 with open('search.json', 'w') as outfile:
         json.dump(json_data, outfile)
-if "spotify:track:" in open('search.json').read():
-    print("true")
+#if "spotify:track:" in open('search.json').read():
+    #print("true")
 
 file = open('search.json', 'r+b')
 mf = mmap.mmap(file.fileno(), 0)
 mf.seek(0) # reset file cursor
-search = "spotify:track"
+search = "spotify:track:"
 search_as_byte = str.encode(search)
-#print(type(search_as_byte))
+#print(type(search_as_byte))\
 m = re.search(search_as_byte, mf)
-#print(m.start(), m.end())
+print(m.span())
+62Du6uokDy88soDYrn5jqL
+3ePUItz2fKt1F4mntYFDGg
+mf.seek(m.end())
+search_id = "\""
+search_id_as_byte = str.encode(search_id)
+print(search_id_as_byte)
+i = re.search(search_id_as_byte, mf)
+print(i.start(), i.end())
+
 mf.close()
 file.close()
 # playresponse = requests.get("https://api.spotify.com/v1/search?q=%22durga11%22&type=playlist", headers=headers)
