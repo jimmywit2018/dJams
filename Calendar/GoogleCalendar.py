@@ -37,8 +37,11 @@ def main():
     if not events:
         print('No upcoming events found.')
     for event in events:
+        #start time of event, shown as: 2018-09-07T12:01:00-04:00
         start = event['start'].get('dateTime', event['start'].get('date'))
-        print(start, event['summary'])
+        #end time of event, shown as: 2018-09-29T21:00:00-04:00
+        end = event['end'].get('dateTime', event['end'].get('date'))
+        print(start, " ",event['summary']," ", end)
 
 
 if __name__ == '__main__':
