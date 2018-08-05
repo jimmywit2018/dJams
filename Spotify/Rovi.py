@@ -29,8 +29,9 @@ hashed = m.hexdigest()
 #print("hashed value", hashed)
 
 #call API
-response = requests.get("http://api.rovicorp.com/data/v1/album/moods?apikey=u8b9c5u6cwwt3mnns9ubdah6&sig=842156e101f98b356459c08cafbec8c3&albumid=MW0000111184")
+response = requests.get("http://api.rovicorp.com/data/v1/album/moods?apikey="+apiKey+"&sig="+hashed+"&albumid=MW0000111184")
 print(response.status_code)
+print(response.text)
 
 #figure out how to get back JSON data
 #parse said data to get just the song name and artist name
