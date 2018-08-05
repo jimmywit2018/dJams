@@ -5,6 +5,8 @@ import pprint
 import spotipy.util as util
 import requests
 import json
+import mmap
+import re
 
 scope = "user-read-private"
 username = 'h0m596l5gz014wayiyy29p0gg'
@@ -30,7 +32,19 @@ response = requests.get(url, headers=headers)
 json_data= json.loads(response.text)
 with open('search.json', 'w') as outfile:
         json.dump(json_data, outfile)
+if "spotify:track:" in open('search.json').read():
+    print("true")
 
+file = open('search.json', 'r+b')
+mf = mmap.mmap(file.fileno(), 0)
+mf.seek(0) # reset file cursor
+search = "spotify:track"
+search_as_byte = str.encode(search)
+#print(type(search_as_byte))
+m = re.search(search_as_byte, mf)
+#print(m.start(), m.end())
+mf.close()
+file.close()
 # playresponse = requests.get("https://api.spotify.com/v1/search?q=%22durga11%22&type=playlist", headers=headers)
 # print(playresponse)
 # print(playresponse.text)
