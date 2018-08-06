@@ -14,6 +14,12 @@ var surveyQuestions = {
             title: "What is your Spotify Username?:"
 
         }, {
+          type: "text",
+          name: "Email",
+          isRequired: true,
+          title: "What is your Google Email address?:"
+
+      }, {
             type: "checkbox",
             name: "types",
             title: "The type(s) of music I like are:",
