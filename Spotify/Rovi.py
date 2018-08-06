@@ -7,13 +7,24 @@ import pprint
 import urllib
 import os
 from urllib.request import urlopen
+from spotipy.oauth2 import SpotifyClientCredentials
+import spotipy
+import spotipy.util as util
+import mmap
+import re
 
+scope = "user-read-private"
+username = 'h0m596l5gz014wayiyy29p0gg'
 #create and assign apiKey and apiSecret values
 apiKey="u8b9c5u6cwwt3mnns9ubdah6"
 apiSecret = "gwGXJdarNB"
 apiK= "7d02f117f44c9fcc4205c77ef98e6288"
 apiS= "2fbb022389b40a3d6efcc9faf23432aa"
+client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
+client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
+token = util.prompt_for_user_token(username, scope, client_id=client_id, client_secret = client_secret , redirect_uri="http://google.com/")
 
+sp = spotipy.Spotify(auth=token)
 #set up hash
 m = hashlib.md5()
 
@@ -41,17 +52,30 @@ with open('musicapisearchtop.json') as top:
 
 iter = 0
 for track in datatop['tracks']:
-    print(len(track))
+    print("iter: ", iter, "length: ",len(track))
     while iter < len(track):
         artistName = datatop['tracks']['track'][iter]['artist']['name']
         songName = datatop['tracks']['track'][iter]['name']
-        iter= iter+1
         print(artistName, songName)
+
+        headers = {"Authorization": "Bearer " + token, "Accept": "application/json", "Content-Type": "application/json"}
+        url = "https://api.spotify.com/v1/search?q=track:"+songName+"%20artist:"+artistName+"&type=track"
+        response = requests.get(url, headers=headers)
+        #print("got passed the spotify api call")
+        json_data= json.loads(response.text)
+        with open('search.json', 'w') as outfile:
+                json.dump(json_data, outfile,indent=4, sort_keys=True)
+        with open('search.json') as infile:
+            data = json.loads(infile.read())
+            la = 0
+        track_uri = data['tracks']['items'][0]['uri']
+        print(track_uri)
+        iter= iter+1
 outfiletop.close()
 top.close()
 #create a value for the signature to hash / print for decoding purposes
 sig = apiKey+apiSecret+str(unixTime)
-print("signature before md5 hash: ", sig)
+#print("signature before md5 hash: ", sig)
 
 #hashes the signature for the API call
 m.update(sig.encode('utf8'))
