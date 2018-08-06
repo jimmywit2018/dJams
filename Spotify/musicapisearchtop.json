@@ -3,9 +3,9 @@
         "@attr": {
             "page": "1",
             "perPage": "10",
-            "tag": "disco",
-            "total": "28808",
-            "totalPages": "2881"
+            "tag": "rock",
+            "total": "483368",
+            "totalPages": "48337"
         },
         "track": [
             {
@@ -13,360 +13,360 @@
                     "rank": "1"
                 },
                 "artist": {
-                    "mbid": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
-                    "name": "Michael Jackson",
-                    "url": "https://www.last.fm/music/Michael+Jackson"
+                    "mbid": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6",
+                    "name": "Nirvana",
+                    "url": "https://www.last.fm/music/Nirvana"
                 },
-                "duration": "293",
+                "duration": "301",
                 "image": [
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/89a490f578e4451b9dea9c20158c8a1e.png",
                         "size": "small"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/89a490f578e4451b9dea9c20158c8a1e.png",
                         "size": "medium"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/89a490f578e4451b9dea9c20158c8a1e.png",
                         "size": "large"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/89a490f578e4451b9dea9c20158c8a1e.png",
                         "size": "extralarge"
                     }
                 ],
-                "mbid": "f980fc14-e29b-481d-ad3a-5ed9b4ab6340",
-                "name": "Billie Jean",
+                "mbid": "0ebe2d92-a11d-4b2b-9922-806383074ed7",
+                "name": "Smells Like Teen Spirit",
                 "streamable": {
                     "#text": "0",
                     "fulltrack": "0"
                 },
-                "url": "https://www.last.fm/music/Michael+Jackson/_/Billie+Jean"
+                "url": "https://www.last.fm/music/Nirvana/_/Smells+Like+Teen+Spirit"
             },
             {
                 "@attr": {
                     "rank": "2"
                 },
                 "artist": {
-                    "mbid": "f9c1cc73-36ba-4f8d-ba12-7d2490608886",
-                    "name": "Justice",
-                    "url": "https://www.last.fm/music/Justice"
+                    "mbid": "95e1ead9-4d31-4808-a7ac-32c3614c116b",
+                    "name": "The Killers",
+                    "url": "https://www.last.fm/music/The+Killers"
                 },
-                "duration": "244",
+                "duration": "224",
                 "image": [
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3f6248c361c64e47ce893406a1a853dd.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3ed37777196a6f2c29c02a1a58a93e4d.png",
                         "size": "small"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3f6248c361c64e47ce893406a1a853dd.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3ed37777196a6f2c29c02a1a58a93e4d.png",
                         "size": "medium"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3f6248c361c64e47ce893406a1a853dd.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3ed37777196a6f2c29c02a1a58a93e4d.png",
                         "size": "large"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3f6248c361c64e47ce893406a1a853dd.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3ed37777196a6f2c29c02a1a58a93e4d.png",
                         "size": "extralarge"
                     }
                 ],
-                "mbid": "b42d9226-f8eb-4762-b654-3136fdf52fbc",
-                "name": "D.A.N.C.E.",
+                "mbid": "37d516ab-d61f-4bcb-9316-7a0b3eb845a8",
+                "name": "Mr. Brightside",
                 "streamable": {
                     "#text": "0",
                     "fulltrack": "0"
                 },
-                "url": "https://www.last.fm/music/Justice/_/D.A.N.C.E."
+                "url": "https://www.last.fm/music/The+Killers/_/Mr.+Brightside"
             },
             {
                 "@attr": {
                     "rank": "3"
                 },
                 "artist": {
-                    "mbid": "e5257dc5-1edd-4fca-b7e6-1158e00522c8",
-                    "name": "The Jackson 5",
-                    "url": "https://www.last.fm/music/The+Jackson+5"
+                    "mbid": "ecf9f3a3-35e9-4c58-acaa-e707fba45060",
+                    "name": "Oasis",
+                    "url": "https://www.last.fm/music/Oasis"
                 },
-                "duration": "180",
+                "duration": "259",
                 "image": [
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/62ceb47376da4558c542f4f12564a9e1.png",
                         "size": "small"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/62ceb47376da4558c542f4f12564a9e1.png",
                         "size": "medium"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/62ceb47376da4558c542f4f12564a9e1.png",
                         "size": "large"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/62ceb47376da4558c542f4f12564a9e1.png",
                         "size": "extralarge"
                     }
                 ],
-                "mbid": "fc7dc7a7-defd-4e18-aa67-d7960465e43d",
-                "name": "I Want You Back",
+                "mbid": "31623cce-9717-4513-9d83-1b5d04e44f9b",
+                "name": "Wonderwall",
                 "streamable": {
                     "#text": "0",
                     "fulltrack": "0"
                 },
-                "url": "https://www.last.fm/music/The+Jackson+5/_/I+Want+You+Back"
+                "url": "https://www.last.fm/music/Oasis/_/Wonderwall"
             },
             {
                 "@attr": {
                     "rank": "4"
                 },
                 "artist": {
-                    "mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
-                    "name": "Daft Punk",
-                    "url": "https://www.last.fm/music/Daft+Punk"
+                    "mbid": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6",
+                    "name": "Nirvana",
+                    "url": "https://www.last.fm/music/Nirvana"
                 },
-                "duration": "248",
+                "duration": "208",
                 "image": [
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/89a490f578e4451b9dea9c20158c8a1e.png",
                         "size": "small"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/89a490f578e4451b9dea9c20158c8a1e.png",
                         "size": "medium"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/89a490f578e4451b9dea9c20158c8a1e.png",
                         "size": "large"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/8251fcd0807f4d189b1771d3375d3404.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/89a490f578e4451b9dea9c20158c8a1e.png",
                         "size": "extralarge"
                     }
                 ],
-                "mbid": "",
-                "name": "Get Lucky (feat. Pharrell Williams)",
+                "mbid": "e05035a3-14ac-4f88-a160-0a144530004e",
+                "name": "Come as You Are",
                 "streamable": {
                     "#text": "0",
                     "fulltrack": "0"
                 },
-                "url": "https://www.last.fm/music/Daft+Punk/_/Get+Lucky+(feat.+Pharrell+Williams)"
+                "url": "https://www.last.fm/music/Nirvana/_/Come+as+You+Are"
             },
             {
                 "@attr": {
                     "rank": "5"
                 },
                 "artist": {
-                    "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
-                    "name": "ABBA",
-                    "url": "https://www.last.fm/music/ABBA"
+                    "mbid": "aa7a2827-f74b-473c-bd79-03d065835cf7",
+                    "name": "Franz Ferdinand",
+                    "url": "https://www.last.fm/music/Franz+Ferdinand"
                 },
-                "duration": "352",
+                "duration": "256",
                 "image": [
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/a3c10f4026ac4de6cd529692bc941769.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/05d5163441ce7cfb779dea0c6b79fcdd.png",
                         "size": "small"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/a3c10f4026ac4de6cd529692bc941769.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/05d5163441ce7cfb779dea0c6b79fcdd.png",
                         "size": "medium"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/a3c10f4026ac4de6cd529692bc941769.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/05d5163441ce7cfb779dea0c6b79fcdd.png",
                         "size": "large"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a3c10f4026ac4de6cd529692bc941769.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/05d5163441ce7cfb779dea0c6b79fcdd.png",
                         "size": "extralarge"
                     }
                 ],
-                "mbid": "a502f559-f70c-4e0d-a5e5-e0cc319d0bd7",
-                "name": "Dancing Queen",
+                "mbid": "11b7c3d2-8a49-4812-95dc-aef93c4cec37",
+                "name": "Take Me Out",
                 "streamable": {
                     "#text": "0",
                     "fulltrack": "0"
                 },
-                "url": "https://www.last.fm/music/ABBA/_/Dancing+Queen"
+                "url": "https://www.last.fm/music/Franz+Ferdinand/_/Take+Me+Out"
             },
             {
                 "@attr": {
                     "rank": "6"
                 },
                 "artist": {
-                    "mbid": "4d2956d1-a3f7-44bb-9a41-67563e1a0c94",
-                    "name": "Blondie",
-                    "url": "https://www.last.fm/music/Blondie"
+                    "mbid": "95e1ead9-4d31-4808-a7ac-32c3614c116b",
+                    "name": "The Killers",
+                    "url": "https://www.last.fm/music/The+Killers"
                 },
-                "duration": "349",
+                "duration": "197",
                 "image": [
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2383e23ed1ac4795c732fd0d1bc2181d.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3ed37777196a6f2c29c02a1a58a93e4d.png",
                         "size": "small"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2383e23ed1ac4795c732fd0d1bc2181d.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3ed37777196a6f2c29c02a1a58a93e4d.png",
                         "size": "medium"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2383e23ed1ac4795c732fd0d1bc2181d.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3ed37777196a6f2c29c02a1a58a93e4d.png",
                         "size": "large"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2383e23ed1ac4795c732fd0d1bc2181d.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3ed37777196a6f2c29c02a1a58a93e4d.png",
                         "size": "extralarge"
                     }
                 ],
-                "mbid": "a5b0b955-9d20-42e2-94b0-49f0b3636ea9",
-                "name": "Heart of Glass",
+                "mbid": "309eb50b-637b-476c-9f23-a589a90432fe",
+                "name": "Somebody Told Me",
                 "streamable": {
                     "#text": "0",
                     "fulltrack": "0"
                 },
-                "url": "https://www.last.fm/music/Blondie/_/Heart+of+Glass"
+                "url": "https://www.last.fm/music/The+Killers/_/Somebody+Told+Me"
             },
             {
                 "@attr": {
                     "rank": "7"
                 },
                 "artist": {
-                    "mbid": "e0e1a584-dd0a-4bd1-88d1-c4c62895039d",
-                    "name": "Foster the People",
-                    "url": "https://www.last.fm/music/Foster+the+People"
+                    "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+                    "name": "Coldplay",
+                    "url": "https://www.last.fm/music/Coldplay"
                 },
-                "duration": "204",
+                "duration": "241",
                 "image": [
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c125cd1c1a5c3a8ee8b753dde907f41f.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3aa0fd17bc58e2a125f8008520415053.png",
                         "size": "small"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c125cd1c1a5c3a8ee8b753dde907f41f.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3aa0fd17bc58e2a125f8008520415053.png",
                         "size": "medium"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c125cd1c1a5c3a8ee8b753dde907f41f.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3aa0fd17bc58e2a125f8008520415053.png",
                         "size": "large"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c125cd1c1a5c3a8ee8b753dde907f41f.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3aa0fd17bc58e2a125f8008520415053.png",
                         "size": "extralarge"
                     }
                 ],
-                "mbid": "c373d6db-4340-4ec5-891a-8130b4440ded",
-                "name": "Houdini",
+                "mbid": "6cbbb97d-2180-4ba9-97a8-6158b6332bb4",
+                "name": "Viva la Vida",
                 "streamable": {
                     "#text": "0",
                     "fulltrack": "0"
                 },
-                "url": "https://www.last.fm/music/Foster+the+People/_/Houdini"
+                "url": "https://www.last.fm/music/Coldplay/_/Viva+la+Vida"
             },
             {
                 "@attr": {
                     "rank": "8"
                 },
                 "artist": {
-                    "mbid": "535afeda-2538-435d-9dd1-5e10be586774",
-                    "name": "Earth, Wind & Fire",
-                    "url": "https://www.last.fm/music/Earth,+Wind+&+Fire"
+                    "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+                    "name": "Coldplay",
+                    "url": "https://www.last.fm/music/Coldplay"
                 },
-                "duration": "0",
+                "duration": "310",
                 "image": [
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3c85a2b9d6d045dabc6c0a926e4ec993.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3aa0fd17bc58e2a125f8008520415053.png",
                         "size": "small"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3c85a2b9d6d045dabc6c0a926e4ec993.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3aa0fd17bc58e2a125f8008520415053.png",
                         "size": "medium"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3c85a2b9d6d045dabc6c0a926e4ec993.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3aa0fd17bc58e2a125f8008520415053.png",
                         "size": "large"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3c85a2b9d6d045dabc6c0a926e4ec993.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3aa0fd17bc58e2a125f8008520415053.png",
                         "size": "extralarge"
                     }
                 ],
-                "mbid": "",
-                "name": "September",
+                "mbid": "ec87fef2-84cd-41b3-8642-38ce1b6962a6",
+                "name": "Clocks",
                 "streamable": {
                     "#text": "0",
                     "fulltrack": "0"
                 },
-                "url": "https://www.last.fm/music/Earth,+Wind+&+Fire/_/September"
+                "url": "https://www.last.fm/music/Coldplay/_/Clocks"
             },
             {
                 "@attr": {
                     "rank": "9"
                 },
                 "artist": {
-                    "mbid": "79239441-bfd5-4981-a70c-55c3f15c1287",
-                    "name": "Madonna",
-                    "url": "https://www.last.fm/music/Madonna"
+                    "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                    "name": "Radiohead",
+                    "url": "https://www.last.fm/music/Radiohead"
                 },
-                "duration": "336",
+                "duration": "0",
                 "image": [
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/cdd7f3c2d0fcac2de6905eee61b60103.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/97a3e5ec1a56662d6100a02343944c95.png",
                         "size": "small"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/cdd7f3c2d0fcac2de6905eee61b60103.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/97a3e5ec1a56662d6100a02343944c95.png",
                         "size": "medium"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/cdd7f3c2d0fcac2de6905eee61b60103.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/97a3e5ec1a56662d6100a02343944c95.png",
                         "size": "large"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/cdd7f3c2d0fcac2de6905eee61b60103.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/97a3e5ec1a56662d6100a02343944c95.png",
                         "size": "extralarge"
                     }
                 ],
-                "mbid": "cb349d7d-de8b-479c-972a-03e4daa08d3f",
-                "name": "Hung Up",
+                "mbid": "0790ba6c-e0b1-4891-b82f-b4db9a5a927f",
+                "name": "Karma Police",
                 "streamable": {
                     "#text": "0",
                     "fulltrack": "0"
                 },
-                "url": "https://www.last.fm/music/Madonna/_/Hung+Up"
+                "url": "https://www.last.fm/music/Radiohead/_/Karma+Police"
             },
             {
                 "@attr": {
                     "rank": "10"
                 },
                 "artist": {
-                    "mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
-                    "name": "Daft Punk",
-                    "url": "https://www.last.fm/music/Daft+Punk"
+                    "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                    "name": "Radiohead",
+                    "url": "https://www.last.fm/music/Radiohead"
                 },
-                "duration": "0",
+                "duration": "239",
                 "image": [
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/97a3e5ec1a56662d6100a02343944c95.png",
                         "size": "small"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/97a3e5ec1a56662d6100a02343944c95.png",
                         "size": "medium"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/97a3e5ec1a56662d6100a02343944c95.png",
                         "size": "large"
                     },
                     {
-                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/8251fcd0807f4d189b1771d3375d3404.png",
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/97a3e5ec1a56662d6100a02343944c95.png",
                         "size": "extralarge"
                     }
                 ],
-                "mbid": "",
-                "name": "Get Lucky (Radio Edit) [feat. Pharrell Williams]",
+                "mbid": "d11fcceb-dfc5-4d19-b45d-f4e8f6d3eaa6",
+                "name": "Creep",
                 "streamable": {
                     "#text": "0",
                     "fulltrack": "0"
                 },
-                "url": "https://www.last.fm/music/Daft+Punk/_/Get+Lucky+(Radio+Edit)+%5Bfeat.+Pharrell+Williams%5D"
+                "url": "https://www.last.fm/music/Radiohead/_/Creep"
             }
         ]
     }
