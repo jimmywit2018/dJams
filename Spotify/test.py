@@ -12,16 +12,40 @@ apiS= "2fbb022389b40a3d6efcc9faf23432aa"
 
 url = "https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&limit=2&api_key=7d02f117f44c9fcc4205c77ef98e6288&format=json"
 #call API
-responsetop = requests.get("https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&limit=2&api_key="+apiK+"&format=json")
+responsetop = requests.get("https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&limit=5&api_key="+apiK+"&format=json")
 responseweek = requests.get("https://ws.audioscrobbler.com/2.0/?method=tag.getweeklychartlist&tag=disco&api_key="+apiK+"&format=json")
 
 result = json.loads(responsetop.text)
 with open('musicapisearch.json', 'w') as outfile:
          json.dump(result, outfile, indent=4, sort_keys=True)
+
+with open('musicapisearch.json') as f:
+    data = json.loads(f.read())
+
+# artistName = data['tracks']['track'][0]['artist']['name']
+# songName = data['tracks']['track'][0]['name']
+# print(artistName, songName)
+
+iter = 0
+for tracks in result:
+    print(iter)
+    artistName = data['tracks']['track'][iter]['artist']['name']
+    songName = data['tracks']['track'][iter]['name']
+    iter= iter+1
+    print(artistName, songName)
+
+    #print(tracksJSON[0]['streamable'])
+    #print(track['])
+
+    #print(tracks, track)
+
+#json array tracks.track[0].artist.name
+# tracks.track[0].name
+
 #print('"tracks":', result['tracks']['track']['name'])
 
-url=urlopen("https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&limit=2&api_key="+apiK+"&format=json").read()
-url = json.loads(url)
+# url=urlopen("https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&limit=2&api_key="+apiK+"&format=json").read()
+# url = json.loads(url)
 
 #print(url.get('tracks').get('track').get('name'))
 #contents = page.read()
