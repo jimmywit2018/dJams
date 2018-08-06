@@ -24,13 +24,13 @@ m = hashlib.md5()
 unixTime = int(time.time())
 #print(unixTime)
 os.remove('musicapisearchtop.json')
-url = "https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&limit=10&api_key=7d02f117f44c9fcc4205c77ef98e6288&format=json"
+url = "https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&limit=50&api_key=7d02f117f44c9fcc4205c77ef98e6288&format=json"
 #call API
-responsetop = requests.get("https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&limit=10&api_key="+apiK+"&format=json")
+responsetop = requests.get("https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=rock&limit=10&api_key="+apiK+"&format=json")
 
 resulttop = json.loads(responsetop.text)
-
-with open('musicapisearchtop.json', 'w') as outfiletop:
+open('musicapisearchtop.json', "w+")
+with open('musicapisearchtop.json', 'w+') as outfiletop:
          json.dump(resulttop, outfiletop, indent=4, sort_keys=True)
 
 with open('musicapisearchtop.json') as top:
@@ -40,13 +40,15 @@ with open('musicapisearchtop.json') as top:
 # print(artistName, songName)
 
 iter = 0
-for track in datatop['tracks']:
+count=0
+track=[]
+for track in datatop['tracks']['track']:
     print(len(track))
-    while iter < len(track):
-        artistName = datatop['tracks']['track'][iter]['artist']['name']
-        songName = datatop['tracks']['track'][iter]['name']
-        iter= iter+1
-        print(artistName, songName)
+while iter < len(track):
+    artistName = datatop['tracks']['track'][iter]['artist']['name']
+    songName = datatop['tracks']['track'][iter]['name']
+    iter= iter+1
+    print(artistName, songName)
 outfiletop.close()
 top.close()
 #create a value for the signature to hash / print for decoding purposes
