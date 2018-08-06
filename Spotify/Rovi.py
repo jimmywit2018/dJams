@@ -13,7 +13,7 @@ import spotipy.util as util
 import mmap
 import re
 
-scope = "user-read-private"
+scope = "playlist-modify-public"
 username = 'h0m596l5gz014wayiyy29p0gg'
 #create and assign apiKey and apiSecret values
 apiKey="u8b9c5u6cwwt3mnns9ubdah6"
@@ -22,6 +22,10 @@ apiK= "7d02f117f44c9fcc4205c77ef98e6288"
 apiS= "2fbb022389b40a3d6efcc9faf23432aa"
 client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
 client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
+
+#hardcoded playlistid for now
+playlist_id = "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:3b6zyg3kZnWE18tTP04C0U"
+
 token = util.prompt_for_user_token(username, scope, client_id=client_id, client_secret = client_secret , redirect_uri="http://google.com/")
 
 sp = spotipy.Spotify(auth=token)
@@ -51,7 +55,7 @@ with open('musicapisearchtop.json') as top:
 # print(artistName, songName)
 
 iter = 0
-for track in datatop['tracks']:
+for track in datatop['tracks']['track']:
     print("iter: ", iter, "length: ",len(track))
     while iter < len(track):
         artistName = datatop['tracks']['track'][iter]['artist']['name']
@@ -70,6 +74,7 @@ for track in datatop['tracks']:
             la = 0
         track_uri = data['tracks']['items'][0]['uri']
         print(track_uri)
+
         iter= iter+1
 outfiletop.close()
 top.close()
