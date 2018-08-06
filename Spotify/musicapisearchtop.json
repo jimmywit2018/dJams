@@ -1,0 +1,373 @@
+{
+    "tracks": {
+        "@attr": {
+            "page": "1",
+            "perPage": "10",
+            "tag": "disco",
+            "total": "28808",
+            "totalPages": "2881"
+        },
+        "track": [
+            {
+                "@attr": {
+                    "rank": "1"
+                },
+                "artist": {
+                    "mbid": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+                    "name": "Michael Jackson",
+                    "url": "https://www.last.fm/music/Michael+Jackson"
+                },
+                "duration": "293",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a9b0f69d51f41a888ef29df9cfe3594.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "f980fc14-e29b-481d-ad3a-5ed9b4ab6340",
+                "name": "Billie Jean",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Michael+Jackson/_/Billie+Jean"
+            },
+            {
+                "@attr": {
+                    "rank": "2"
+                },
+                "artist": {
+                    "mbid": "f9c1cc73-36ba-4f8d-ba12-7d2490608886",
+                    "name": "Justice",
+                    "url": "https://www.last.fm/music/Justice"
+                },
+                "duration": "244",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3f6248c361c64e47ce893406a1a853dd.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3f6248c361c64e47ce893406a1a853dd.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3f6248c361c64e47ce893406a1a853dd.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3f6248c361c64e47ce893406a1a853dd.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "b42d9226-f8eb-4762-b654-3136fdf52fbc",
+                "name": "D.A.N.C.E.",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Justice/_/D.A.N.C.E."
+            },
+            {
+                "@attr": {
+                    "rank": "3"
+                },
+                "artist": {
+                    "mbid": "e5257dc5-1edd-4fca-b7e6-1158e00522c8",
+                    "name": "The Jackson 5",
+                    "url": "https://www.last.fm/music/The+Jackson+5"
+                },
+                "duration": "180",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "fc7dc7a7-defd-4e18-aa67-d7960465e43d",
+                "name": "I Want You Back",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/The+Jackson+5/_/I+Want+You+Back"
+            },
+            {
+                "@attr": {
+                    "rank": "4"
+                },
+                "artist": {
+                    "mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+                    "name": "Daft Punk",
+                    "url": "https://www.last.fm/music/Daft+Punk"
+                },
+                "duration": "248",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/8251fcd0807f4d189b1771d3375d3404.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "",
+                "name": "Get Lucky (feat. Pharrell Williams)",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Daft+Punk/_/Get+Lucky+(feat.+Pharrell+Williams)"
+            },
+            {
+                "@attr": {
+                    "rank": "5"
+                },
+                "artist": {
+                    "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+                    "name": "ABBA",
+                    "url": "https://www.last.fm/music/ABBA"
+                },
+                "duration": "352",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/a3c10f4026ac4de6cd529692bc941769.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/a3c10f4026ac4de6cd529692bc941769.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/a3c10f4026ac4de6cd529692bc941769.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a3c10f4026ac4de6cd529692bc941769.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "a502f559-f70c-4e0d-a5e5-e0cc319d0bd7",
+                "name": "Dancing Queen",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/ABBA/_/Dancing+Queen"
+            },
+            {
+                "@attr": {
+                    "rank": "6"
+                },
+                "artist": {
+                    "mbid": "4d2956d1-a3f7-44bb-9a41-67563e1a0c94",
+                    "name": "Blondie",
+                    "url": "https://www.last.fm/music/Blondie"
+                },
+                "duration": "349",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2383e23ed1ac4795c732fd0d1bc2181d.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2383e23ed1ac4795c732fd0d1bc2181d.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2383e23ed1ac4795c732fd0d1bc2181d.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2383e23ed1ac4795c732fd0d1bc2181d.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "a5b0b955-9d20-42e2-94b0-49f0b3636ea9",
+                "name": "Heart of Glass",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Blondie/_/Heart+of+Glass"
+            },
+            {
+                "@attr": {
+                    "rank": "7"
+                },
+                "artist": {
+                    "mbid": "e0e1a584-dd0a-4bd1-88d1-c4c62895039d",
+                    "name": "Foster the People",
+                    "url": "https://www.last.fm/music/Foster+the+People"
+                },
+                "duration": "204",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c125cd1c1a5c3a8ee8b753dde907f41f.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c125cd1c1a5c3a8ee8b753dde907f41f.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c125cd1c1a5c3a8ee8b753dde907f41f.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c125cd1c1a5c3a8ee8b753dde907f41f.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "c373d6db-4340-4ec5-891a-8130b4440ded",
+                "name": "Houdini",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Foster+the+People/_/Houdini"
+            },
+            {
+                "@attr": {
+                    "rank": "8"
+                },
+                "artist": {
+                    "mbid": "535afeda-2538-435d-9dd1-5e10be586774",
+                    "name": "Earth, Wind & Fire",
+                    "url": "https://www.last.fm/music/Earth,+Wind+&+Fire"
+                },
+                "duration": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3c85a2b9d6d045dabc6c0a926e4ec993.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3c85a2b9d6d045dabc6c0a926e4ec993.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3c85a2b9d6d045dabc6c0a926e4ec993.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3c85a2b9d6d045dabc6c0a926e4ec993.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "",
+                "name": "September",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Earth,+Wind+&+Fire/_/September"
+            },
+            {
+                "@attr": {
+                    "rank": "9"
+                },
+                "artist": {
+                    "mbid": "79239441-bfd5-4981-a70c-55c3f15c1287",
+                    "name": "Madonna",
+                    "url": "https://www.last.fm/music/Madonna"
+                },
+                "duration": "336",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/cdd7f3c2d0fcac2de6905eee61b60103.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/cdd7f3c2d0fcac2de6905eee61b60103.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/cdd7f3c2d0fcac2de6905eee61b60103.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/cdd7f3c2d0fcac2de6905eee61b60103.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "cb349d7d-de8b-479c-972a-03e4daa08d3f",
+                "name": "Hung Up",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Madonna/_/Hung+Up"
+            },
+            {
+                "@attr": {
+                    "rank": "10"
+                },
+                "artist": {
+                    "mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+                    "name": "Daft Punk",
+                    "url": "https://www.last.fm/music/Daft+Punk"
+                },
+                "duration": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/8251fcd0807f4d189b1771d3375d3404.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/8251fcd0807f4d189b1771d3375d3404.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "",
+                "name": "Get Lucky (Radio Edit) [feat. Pharrell Williams]",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Daft+Punk/_/Get+Lucky+(Radio+Edit)+%5Bfeat.+Pharrell+Williams%5D"
+            }
+        ]
+    }
+}
