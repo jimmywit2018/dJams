@@ -22,10 +22,9 @@ apiK= "7d02f117f44c9fcc4205c77ef98e6288"
 apiS= "2fbb022389b40a3d6efcc9faf23432aa"
 client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
 client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
-
+track_ids=[]
 #hardcoded playlistid for now
 playlist_id = "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:3b6zyg3kZnWE18tTP04C0U"
-
 token = util.prompt_for_user_token(username, scope, client_id=client_id, client_secret = client_secret , redirect_uri="http://google.com/")
 
 sp = spotipy.Spotify(auth=token)
@@ -74,8 +73,14 @@ for track in datatop['tracks']['track']:
             la = 0
         track_uri = data['tracks']['items'][0]['uri']
         print(track_uri)
-
+        track_ids.append(track_uri)
         iter= iter+1
+
+print( "TRACK IDS: ",track_ids)
+sp = spotipy.Spotify(auth=token)
+sp.trace = False
+results = sp.user_playlist_add_tracks(username, playlist_id, track_ids)
+print(results)
 outfiletop.close()
 top.close()
 #create a value for the signature to hash / print for decoding purposes
