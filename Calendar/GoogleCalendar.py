@@ -39,9 +39,19 @@ def main():
     for event in events:
         #start time of event, shown as: 2018-09-07T12:01:00-04:00
         start = event['start'].get('dateTime', event['start'].get('date'))
+        startdate= start[:-15]
+        starttime= start[11:-6]
         #end time of event, shown as: 2018-09-29T21:00:00-04:00
         end = event['end'].get('dateTime', event['end'].get('date'))
-        print(start, " ",event['summary']," ", end)
+        enddate= end[:-15]
+        endtime= end[11:-6]
+        if(startdate==enddate):
+            print(startdate, starttime, "-",endtime, event['summary'])
+        else:
+            print(startdate,starttime,"-",enddate,endtime, event['summary'])
+    # print(startdate, starttime)
+    # print(enddate, endtime)
+
 
 
 if __name__ == '__main__':
