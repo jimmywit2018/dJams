@@ -1,0 +1,19 @@
+--
+-- File generated with SQLiteStudio v3.2.1 on Mon Aug 6 05:57:54 2018
+--
+-- Text encoding used: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Table: Name
+CREATE TABLE Name (UserID STRING PRIMARY KEY, UserName STRING);
+
+-- Table: Schedule
+CREATE TABLE Schedule (UserName STRING, WorkTime TIME, WorkOutTime TIME, RelaxTime TIME);
+
+-- Table: Spotify
+CREATE TABLE Spotify (UserID STRING REFERENCES Name (UserID), PlaylistName STRING, PlaylistID STRING);
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
