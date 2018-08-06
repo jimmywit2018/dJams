@@ -31,27 +31,39 @@ response = requests.get(url, headers=headers)
 #loads the response into a json_data
 json_data= json.loads(response.text)
 with open('search.json', 'w') as outfile:
-        json.dump(json_data, outfile)
+        json.dump(json_data, outfile,indent=4, sort_keys=True)
+with open('search.json') as infile:
+    data = json.loads(infile.read())
+
 #if "spotify:track:" in open('search.json').read():
     #print("true")
-
-file = open('search.json', 'r+b')
-mf = mmap.mmap(file.fileno(), 0)
-mf.seek(0) # reset file cursor
-search = "spotify:track:"
-search_as_byte = str.encode(search)
-#print(type(search_as_byte))\
-m = re.search(search_as_byte, mf)
-print(m.span())
-mf.seek(m.end())
-search_id = "\""
-search_id_as_byte = str.encode(search_id)
-print(search_id_as_byte)
-i = re.search(search_id_as_byte, mf)
-print(i.start(), i.end())
-
-mf.close()
-file.close()
+#
+iter = 0
+for track in data['tracks']:
+    print(len(track))
+    while iter < len(track):
+        track_uri = data['tracks']['items'][0]['uri']
+        iter= iter+1
+print(items)
+outfile.close()
+infile.close()
+# file = open('search.json', 'r+b')
+# mf = mmap.mmap(file.fileno(), 0)
+# mf.seek(0) # reset file cursor
+# search = "spotify:track:"
+# search_as_byte = str.encode(search)
+# #print(type(search_as_byte))\
+# m = re.search(search_as_byte, mf)
+# #print(m.span())
+# mf.seek(m.end())
+# search_id = "\""
+# search_id_as_byte = str.encode(search_id)
+# #print(search_id_as_byte)
+# i = re.search(search_id_as_byte, mf)
+# #print(i.start(), i.end())
+#
+# mf.close()
+# file.close()
 # playresponse = requests.get("https://api.spotify.com/v1/search?q=%22durga11%22&type=playlist", headers=headers)
 # print(playresponse)
 # print(playresponse.text)
