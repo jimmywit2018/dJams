@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>dJams</title>
+
+  </head>
+<body>
+
+
+  <font size ="6"><center><h1>Hello <span id="clientName"></span></h1>
+  <p>Please Sign in to be redirected to the main page</p>
+
+  <button onclick="login();">Click Here to sign in with Google</button>
+
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+  <script>
+    var config = {
+      apiKey: "AIzaSyDUuFg9VXZqF7ISzGyuY-an5VncrGJWEO0",
+      authDomain: "djamsproject.firebaseapp.com",
+      databaseURL: "https://djamsproject.firebaseio.com",
+      projectId: "djamsproject",
+      storageBucket: "djamsproject.appspot.com",
+      messagingSenderId: "898726382728"
+    };
+    firebase.initializeApp(config);
+
+    function login() {
+      var provider = new firebase.auth.GoogleAuthProvider();
+      firebase.auth().signInWithPopup(provider).then(function(result) {
+        var token = result.credential.accessToken;
+        var user = result.user;
+      }).catch(function(error) {
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        var email = error.email;
+        var credential = error.credential;
+        // ...
+      });
+      firebase.auth().getRedirectResult().then(function(result) {
+        if (result.credential) {
+          var token = result.credential.accessToken;
+        }
+        var user = result.user;
+      }).catch(function(error) {
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        var email = error.email;
+        var credential = error.credential;
+      });
+      function newLoginHappened(user) {
+        if (user) {
+          app(user);
+        } else {
+          var provider = new firebase.auth.GoogleAuthProvider();
+          firebase.auth().signInWithRedirect(provider);
+        }
+      }
+    firebase.auth().onAuthStateChanged(newLoginHappened);
+  }
+
+
+    function app(user) {
+      document.getElementById("clientName").innerHTML = user.displayName;
+    }
+</script>
+
+<p> Once that is completed, Click here to be redirected to the main page! </p>
+
+<a href="mainpage.html">
+  <input type="button" value="Redirect" />
+
+</body>
+
+</html>
