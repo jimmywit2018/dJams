@@ -21,7 +21,7 @@ sp = spotipy.Spotify(auth=token)
 headers = {"Authorization": "Bearer " + token, "Accept": "application/json", "Content-Type": "application/json"}
 url = "https://api.spotify.com/v1/users/"+username+"/playlists"
 response = requests.get(url, headers=headers)
-print(response.status_code)
+#print(response.status_code)
 #print(response.text)
 
 json_data= json.loads(response.text)
@@ -31,13 +31,12 @@ with open('playlists.json') as infile:
      dataplaylist = json.loads(infile.read())
 iter = 0
 for track in dataplaylist['items']:
-
-    print(len(track))
-    while iter < 5:
-        print(iter)
+    playlist_owner= dataplaylist['items'][iter]['owner']['id']
+    if(playlist_owner==username):
         playlist_name = dataplaylist['items'][iter]['name']
         playlist_uri= dataplaylist['items'][iter]['uri']
-        print(playlist_name, playlist_uri)
+        playlist_id = dataplaylist['items'][iter]['id']
+        print(playlist_name, playlist_uri, playlist_id)
         iter= iter+1
 # print(items)
 # outfile.close()
