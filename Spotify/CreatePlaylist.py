@@ -8,22 +8,27 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy
 
 #define the scope of what class is allowed to do
-scope = 'playlist-modify-private'
+scope = 'playlist-modify-public'
 #creates a new spotipy instance
 spotify = spotipy.Spotify()
+
 #asks user for name of desired playlist, will change when code is melded with jimmys
-playlist_name = input("What is the name of the playlist you wish to create? : ")
+#playlist_name = input("What is the name of the playlist you wish to create? : ")
+playlist_name = ["Work", "Work Out", "Rain", "Relax"]
 
 #hardcode username, apiKey and apiSecret
-username = "h0m596l5gz014wayiyy29p0gg"
-client_id = "b7642ea152d44cbf95e9d7efd223cc49"
-client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b"
+username = 'h0m596l5gz014wayiyy29p0gg'
+client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
+client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
 
-token = util.prompt_for_user_token(username, scope="playlist-modify-private", client_id="b7642ea152d44cbf95e9d7efd223cc49", client_secret = "1094e61f08a845a6b1e9a651fe9a1e2b", redirect_uri="http://google.com/")
+token = util.prompt_for_user_token(username, scope=scope, client_id=client_id, client_secret = client_secret, redirect_uri="http://google.com/")
 
 sp = spotipy.Spotify(auth=token)
 sp.trace = False
-sp.user_playlist_create(username, playlist_name, public=False,)
+iter = 0
+while iter < 4:
+    sp.user_playlist_create(username, playlist_name[iter], public=True,)
+    iter=iter+1
 
 
 #scrap code
