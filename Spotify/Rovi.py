@@ -24,7 +24,7 @@ client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
 client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
 track_ids=[]
 #hardcoded playlistid for now
-playlist_id = "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:3b6zyg3kZnWE18tTP04C0U"
+playlist_id = "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:2Dl7nHMG85uerck0dc3Q4C"
 token = util.prompt_for_user_token(username, scope, client_id=client_id, client_secret = client_secret , redirect_uri="http://google.com/")
 
 sp = spotipy.Spotify(auth=token)
@@ -55,7 +55,7 @@ with open('musicapisearchtop.json') as top:
 
 iter = 0
 for track in datatop['tracks']['track']:
-    print("iter: ", iter, "length: ",len(track))
+    #print("iter: ", iter, "length: ",len(track))
     while iter < len(track):
         artistName = datatop['tracks']['track'][iter]['artist']['name']
         songName = datatop['tracks']['track'][iter]['name']
@@ -76,7 +76,7 @@ for track in datatop['tracks']['track']:
         track_ids.append(track_uri)
         iter= iter+1
 
-print( "TRACK IDS: ",track_ids)
+#print( "TRACK IDS: ",track_ids)
 sp = spotipy.Spotify(auth=token)
 sp.trace = False
 results = sp.user_playlist_add_tracks(username, playlist_id, track_ids)
