@@ -126,9 +126,19 @@
             "id": "2Dl7nHMG85uerck0dc3Q4C",
             "images": [
                 {
-                    "height": null,
-                    "url": "https://pl.scdn.co/images/pl/default/d43ea407bdbe0b52776e31a68bf5dde8121155ed",
-                    "width": null
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/12a94fe500df1758d81d27dabf76cf85896ebb383c294000d8739af300d9a842934d6f7e090471c7b866c6e5952f657dbd2187744131dbc6274b20b6cdca7dc20c778ada42fb18506ea1f26857f01d17",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/12a94fe500df1758d81d27dabf76cf85896ebb383c294000d8739af300d9a842934d6f7e090471c7b866c6e5952f657dbd2187744131dbc6274b20b6cdca7dc20c778ada42fb18506ea1f26857f01d17",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/12a94fe500df1758d81d27dabf76cf85896ebb383c294000d8739af300d9a842934d6f7e090471c7b866c6e5952f657dbd2187744131dbc6274b20b6cdca7dc20c778ada42fb18506ea1f26857f01d17",
+                    "width": 60
                 }
             ],
             "name": "BrightWindow",
@@ -144,10 +154,10 @@
             },
             "primary_color": null,
             "public": true,
-            "snapshot_id": "OCwyODkyN2MxOTRmZjdjZGZlZDc0ZGRjNmRiM2I3MDVhMmViMmI0YjRi",
+            "snapshot_id": "MTEsYmQ0ZjU2NTA5YzFjNTk5OTEwZDY4ZmE2YzA5NmIzZmI1MGFmYjJkZA==",
             "tracks": {
                 "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/2Dl7nHMG85uerck0dc3Q4C/tracks",
-                "total": 18
+                "total": 34
             },
             "type": "playlist",
             "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:2Dl7nHMG85uerck0dc3Q4C"
