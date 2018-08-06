@@ -11,6 +11,14 @@ SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
 
 def main():
     dir_path = os.path.dirname(os.path.realpath(__file__))
+    currentdatetime=datetime.datetime.now()
+
+    currentdatetime= currentdatetime.isoformat()
+
+    currentdate= currentdatetime[:-16]
+    currenttime= currentdatetime[11:-7]
+    print(currentdatetime)
+    print(currentdate, currenttime)
     #print(dir_path)
     #files = [f for f in os.listdir(dir_path) if os.path.isfile(f)]
     #for f in files:
