@@ -1,8 +1,11 @@
 import sqlite3
 import json
 
-path = r'C:\Users\zidel\Documents\GitHub\dJams\database\djams.db'
-conn = sqlite3.connect(path)
+path = r"C:\\Users\\zidel\\Documents\\GitHub\\dJams\\database\\djams.db"
+try:
+    conn = sqlite3.connect(path)
+except Error as e:
+        print(e)
 cursor = conn.cursor()
 username=""
 types=""
@@ -17,7 +20,7 @@ working=""
 relaxing=""
 #C:\Users\zidel\Documents\GitHub\dJams\templates
 print("C:\\Users\\zidel\\Documents\\GitHub\\dJams\\templates\\example.json")
-with open('C:\\Users\\zidel\\Documents\\GitHub\\dJams\\templates\\example.json') as survey:
+with open(r'C:\\Users\\zidel\\Documents\\GitHub\\dJams\\templates\\example.json') as survey:
     surveyAnswers = json.loads(survey.read())
     print(surveyAnswers)
 
@@ -34,7 +37,6 @@ for info in surveyAnswers:
     working=surveyAnswers['working']
     relaxing=surveyAnswers['relaxing']
     email = surveyAnswers['email']
-print(email)
 
 cursor.execute("INSERT INTO Survey (UserID, types, sunnylisten, sunnymood, rainylisten, rainymood, cloudylisten, cloudymood, workout, relaxing,working) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
 (userID, types, sunnylisten, sunnymood, rainylisten, rainymood, cloudylisten, cloudymood, workout, relaxing, working))
