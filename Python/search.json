@@ -109,6 +109,7 @@
                     "name": "Greatest Hits: Blondie",
                     "release_date": "2006-01-01",
                     "release_date_precision": "day",
+                    "total_tracks": 18,
                     "type": "album",
                     "uri": "spotify:album:25eZFwT2UvVK1kxC3wMoSW"
                 },
@@ -317,6 +318,7 @@
                     "name": "Rapture",
                     "release_date": "1981-01-12",
                     "release_date_precision": "day",
+                    "total_tracks": 2,
                     "type": "album",
                     "uri": "spotify:album:0VqXjAaUh72B8VZsJPnSq1"
                 },
@@ -525,6 +527,7 @@
                     "name": "Autoamerican",
                     "release_date": "1980-11-01",
                     "release_date_precision": "day",
+                    "total_tracks": 15,
                     "type": "album",
                     "uri": "spotify:album:1VuNXmZV6eIfUwglRlM9Ya"
                 },
@@ -733,6 +736,7 @@
                     "name": "This Is... 1981",
                     "release_date": "2008-08-08",
                     "release_date_precision": "day",
+                    "total_tracks": 19,
                     "type": "album",
                     "uri": "spotify:album:14DpIV2jh5LhJNfutnvAZu"
                 },
@@ -828,7 +832,7 @@
                 "id": "11pxUEV3daXFDvvCl1htvU",
                 "is_local": false,
                 "name": "Rapture",
-                "popularity": 31,
+                "popularity": 30,
                 "preview_url": "https://p.scdn.co/mp3-preview/daf27ded6d6e7437a1ddad1216e924c83752d26d?cid=b7642ea152d44cbf95e9d7efd223cc49",
                 "track_number": 3,
                 "type": "track",
@@ -941,6 +945,7 @@
                     "name": "Blondie 4(0)-Ever: Greatest Hits Deluxe Redux / Ghosts Of Download",
                     "release_date": "2013-05-12",
                     "release_date_precision": "day",
+                    "total_tracks": 27,
                     "type": "album",
                     "uri": "spotify:album:0BvoIfpCiKSobLiXF7QOvN"
                 },
@@ -1036,7 +1041,7 @@
                 "id": "4rfoxdyoyZc9Es4TitEpMr",
                 "is_local": false,
                 "name": "Rapture - Rerecorded 2014 Version",
-                "popularity": 34,
+                "popularity": 33,
                 "preview_url": null,
                 "track_number": 7,
                 "type": "track",
@@ -1149,6 +1154,7 @@
                     "name": "Greatest Hits",
                     "release_date": "2002-01-01",
                     "release_date_precision": "day",
+                    "total_tracks": 19,
                     "type": "album",
                     "uri": "spotify:album:4pIYJsJ8GkYWM1rvqy45ug"
                 },
@@ -1367,6 +1373,7 @@
                     "name": "Once More Into The Bleach",
                     "release_date": "1988",
                     "release_date_precision": "year",
+                    "total_tracks": 13,
                     "type": "album",
                     "uri": "spotify:album:3KqhlIxtnXfWJfi445kI8X"
                 },
@@ -1462,7 +1469,7 @@
                 "id": "131Svaar2WXaVMg4IByw9V",
                 "is_local": false,
                 "name": "Rapture",
-                "popularity": 20,
+                "popularity": 19,
                 "preview_url": null,
                 "track_number": 4,
                 "type": "track",
@@ -1575,6 +1582,7 @@
                     "name": "Autoamerican",
                     "release_date": "1980-11-01",
                     "release_date_precision": "day",
+                    "total_tracks": 15,
                     "type": "album",
                     "uri": "spotify:album:1VuNXmZV6eIfUwglRlM9Ya"
                 },
@@ -1783,6 +1791,7 @@
                     "name": "Live",
                     "release_date": "1999-11-23",
                     "release_date_precision": "day",
+                    "total_tracks": 17,
                     "type": "album",
                     "uri": "spotify:album:6c3BB1ehH8VjFTj0lDXLoz"
                 },
@@ -1991,6 +2000,7 @@
                     "name": "Remixed Remade Remodeled: The Blondie Remix Project",
                     "release_date": "1995-07-18",
                     "release_date_precision": "day",
+                    "total_tracks": 11,
                     "type": "album",
                     "uri": "spotify:album:5kKlhnsWBUsfY8WeIJNhEd"
                 },
@@ -2199,6 +2209,7 @@
                     "name": "Rock and Roll Hall of Fame Volume 9: 2006-2007",
                     "release_date": "2011-11-15",
                     "release_date_precision": "day",
+                    "total_tracks": 23,
                     "type": "album",
                     "uri": "spotify:album:1WEriTaPPE1EhIGu9Pw8kv"
                 },
@@ -2407,6 +2418,7 @@
                     "name": "200 Cigarettes",
                     "release_date": "1999-01-01",
                     "release_date_precision": "day",
+                    "total_tracks": 15,
                     "type": "album",
                     "uri": "spotify:album:4ji4S9Ht544BJuyIUi2YsO"
                 },
@@ -2615,6 +2627,7 @@
                     "name": "World's Greatest 80's Disco - The Only 80's Disco Album You'll Ever Need (Deluxe Version)",
                     "release_date": "2010-03-22",
                     "release_date_precision": "day",
+                    "total_tracks": 40,
                     "type": "album",
                     "uri": "spotify:album:25Ks4LhQI0Oy1WVhPJX8fH"
                 },
