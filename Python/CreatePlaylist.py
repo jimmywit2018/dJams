@@ -6,24 +6,49 @@ import spotipy
 import spotipy.util as util
 from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy
+import pymongo
+from pymongo import MongoClient
+import pprint
+import json
+from bson import ObjectId
+from bson import BSON
+from bson import json_util
+import requests
+
+client = pymongo.MongoClient("mongodb+srv://dannyzidelis:DJAMSdurga1!@djamscluster-u6bx0.mongodb.net/dJamsDB")
+
+db = client.dJamsDB
+
+coll = db.MusicPref
 
 #define the scope of what class is allowed to do
 scope = 'playlist-modify-public'
-#creates a new spotipy instance
-spotify = spotipy.Spotify()
 
 #asks user for name of desired playlist, will change when code is melded with jimmys
 #playlist_name = input("What is the name of the playlist you wish to create? : ")
-playlist_name = ["Work", "Work Out", "Rain", "Relax"]
+playlist_name = ["Work", "Work Out", "Rain", "Relax", "Sunny"]
 
 #hardcode username, apiKey and apiSecret
-username = 'h0m596l5gz014wayiyy29p0gg'
+with open('currentuser.txt', 'r') as myfile:
+    email=myfile.read().replace('\n', '')
+# print(email)
+query_results = coll.find_one({"email": email})
+query_results = json.dumps(query_results, indent=4, default=json_util.default)
+query_results = json.loads(query_results)
+#print(query_results['username'])
+
+username = query_results['username']
 client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
 client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
 
 token = util.prompt_for_user_token(username, scope=scope, client_id=client_id, client_secret = client_secret, redirect_uri="http://google.com/")
 
 sp = spotipy.Spotify(auth=token)
+
+headers = {"Authorization": "Bearer " + token, "Accept": "application/json", "Content-Type": "application/json"}
+url = "https://api.spotify.com/v1/users/"+username+"/playlists"
+response = requests.get(url, headers=headers)
+
 sp.trace = False
 iter = 0
 while iter < 4:
