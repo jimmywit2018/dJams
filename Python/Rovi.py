@@ -24,7 +24,8 @@ client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
 client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
 track_ids=[]
 #hardcoded playlistid for now
-playlist_id = "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:2Dl7nHMG85uerck0dc3Q4C"
+
+playlist_id = "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:4wzIR8MBz1jDxritbIHcDD"
 token = util.prompt_for_user_token(username, scope, client_id=client_id, client_secret = client_secret , redirect_uri="http://google.com/")
 
 sp = spotipy.Spotify(auth=token)
@@ -37,16 +38,17 @@ m = hashlib.md5()
 #possibly print for decoding purposes
 unixTime = int(time.time())
 #print(unixTime)
-os.remove('musicapisearchtop.json')
-url = "https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&limit=10&api_key=7d02f117f44c9fcc4205c77ef98e6288&format=json"
+if os.path.exists('musicapisearchtop.json') == True:
+    os.remove('musicapisearchtop.json')
+limit = "100"
+tag = "disco"
+url = "https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag="+tag+"&limit=20&api_key=7d02f117f44c9fcc4205c77ef98e6288&format=json"
+similar = "https://ws.audioscrobbler.com/2.0/?method=tag.getsimilar&tag="+tag+"&api_key="+apiK+"&format=json"
 #call API
-responsetop = requests.get("https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&limit=10&api_key="+apiK+"&format=json")
-
+responsetop = requests.get("https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag="+tag+"&limit="+limit+"&api_key="+apiK+"&format=json")
 resulttop = json.loads(responsetop.text)
-
 with open('musicapisearchtop.json', 'w') as outfiletop:
          json.dump(resulttop, outfiletop, indent=4, sort_keys=True)
-
 with open('musicapisearchtop.json') as top:
     datatop = json.loads(top.read())
 # artistName = data['tracks']['track'][0]['artist']['name']
@@ -54,33 +56,36 @@ with open('musicapisearchtop.json') as top:
 # print(artistName, songName)
 
 iter = 0
-for track in datatop['tracks']['track']:
-    #print("iter: ", iter, "length: ",len(track))
-    while iter < len(track):
+while iter <= int(float(limit)):
+
+    try:
         artistName = datatop['tracks']['track'][iter]['artist']['name']
         songName = datatop['tracks']['track'][iter]['name']
-        print(artistName, songName)
-
+        # print(iter, " ", artistName, songName)
         headers = {"Authorization": "Bearer " + token, "Accept": "application/json", "Content-Type": "application/json"}
         url = "https://api.spotify.com/v1/search?q=track:"+songName+"%20artist:"+artistName+"&type=track"
         response = requests.get(url, headers=headers)
         #print("got passed the spotify api call")
         json_data= json.loads(response.text)
         with open('search.json', 'w') as outfile:
-                json.dump(json_data, outfile,indent=4, sort_keys=True)
+            json.dump(json_data, outfile,indent=4, sort_keys=True)
         with open('search.json') as infile:
             data = json.loads(infile.read())
-            la = 0
+        # print(data['tracks']['href'])
         track_uri = data['tracks']['items'][0]['uri']
-        print(track_uri)
-        track_ids.append(track_uri)
-        iter= iter+1
+    except IndexError:
+        iter=iter+1
+        pass
+        continue
+    # print(iter, " ",track_uri)
+    track_ids.append(track_uri)
+    iter= iter+1
 
 #print( "TRACK IDS: ",track_ids)
 sp = spotipy.Spotify(auth=token)
 sp.trace = False
 results = sp.user_playlist_add_tracks(username, playlist_id, track_ids)
-print(results)
+# print(results)
 outfiletop.close()
 top.close()
 #create a value for the signature to hash / print for decoding purposes
