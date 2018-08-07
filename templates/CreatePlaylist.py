@@ -52,7 +52,8 @@ response = requests.get(url, headers=headers)
 sp.trace = False
 iter = 0
 while iter < 5:
-    sp.user_playlist_create(username, playlist_name[iter], public=True,)
+    if(playlist_name[iter] != "Work"):
+        sp.user_playlist_create(username, playlist_name[iter], public=True,)
     iter=iter+1
 
 

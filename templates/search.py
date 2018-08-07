@@ -27,7 +27,7 @@ query_results = json.dumps(query_results, indent=4, default=json_util.default)
 query_results = json.loads(query_results)
 # print(query_results)
 #print(query_results['username'])
-print(query_results)
+# print(query_results)
 username = query_results['username']
 client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
 client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
