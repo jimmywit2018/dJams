@@ -22,16 +22,3 @@ sp = spotipy.Spotify(auth=token)
 sp.trace = False
 results = sp.user_playlist_add_tracks(username, playlist_id, track_ids)
 print(results)
-#print(response.text)
-#define the scope of what the code is allowed to do, create token to pass allowing for API
-# scope = 'playlist-modify-public'
-# token = util.prompt_for_user_token(username, scope="playlist-modify-private", client_id=client_id, client_secret = client_secret, redirect_uri="http://google.com/")
-# print("testing")
-# if token:
-#     print("got into if statement")
-#     sp = spotipy.Spotify(auth=token)
-#     sp.trace = False
-#     results = sp.user_playlist_add_tracks(username, playlist_id, track_ids)
-#     print(results)
-# else:
-#     print("nothing")

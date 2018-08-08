@@ -23,37 +23,48 @@ client = pymongo.MongoClient("mongodb+srv://dannyzidelis:DJAMSdurga1!@djamsclust
 db = client.dJamsDB
 coll_pref = db.MusicPref
 coll_spot =db.Spotify
+##################################################################################################################################################
+#gets info from the music preference db
 with open('currentuser.txt', 'r') as myfile:
     email=myfile.read().replace('\n', '')
 query_results = coll_pref.find_one({"email": email})
 query_results = json.dumps(query_results, indent=4, default=json_util.default)
 query_results = json.loads(query_results)
 username = query_results['username']
-
+##################################################################################################################################################
+#gets uri and tag for relax playlist
 relax_results = coll_spot.find_one({"Playlist Name": "Relax"})
 relax_results = json.dumps(relax_results, indent=4, default=json_util.default)
 relax_results = json.loads(relax_results)
 relaxuri = relax_results['PlaylistURI']
 relaxtag = query_results['relaxing']
 # print("relax tag: ", relaxtag)
+##################################################################################################################################################
+#gets uri and tag for rain playlist
 rain_results = coll_spot.find_one({"Playlist Name": "Rain"})
 rain_results = json.dumps(rain_results, indent=4, default=json_util.default)
 rain_results = json.loads(rain_results)
 rainuri = rain_results['PlaylistURI']
 raintag = query_results['rainylisten']
 # print("rain tag: ", raintag)
+##################################################################################################################################################
+#gets uri and tag for work playlist
 work_results = coll_spot.find_one({"Playlist Name": "Work"})
 work_results = json.dumps(work_results, indent=4, default=json_util.default)
 work_results = json.loads(work_results)
 workuri = work_results['PlaylistURI']
 worktag = query_results['working']
 # print("work tag:" , worktag)
+##################################################################################################################################################
+#gets uri and tag for workout playlist
 workout_results = coll_spot.find_one({"Playlist Name": "Work Out"})
 workout_results = json.dumps(workout_results, indent=4, default=json_util.default)
 workout_results = json.loads(workout_results)
 workouturi = workout_results['PlaylistURI']
 workouttag = query_results['workout']
 # print("workout tag: ", workouttag)
+##################################################################################################################################################
+#gets uri and tag for sunny playlist
 sunny_results = coll_spot.find_one({"Playlist Name": "Sunny"})
 sunny_results = json.dumps(sunny_results, indent=4, default=json_util.default)
 sunny_results = json.loads(sunny_results)
@@ -62,7 +73,8 @@ sunnytag = query_results['sunnylisten']
 # print("sunnytag: ", sunnytag)
 # print("sunnyuri: ", sunnyuri)
 
-
+##################################################################################################################################################
+#sets all the unchanging variables
 scope = "playlist-modify-public"
 apiKey="u8b9c5u6cwwt3mnns9ubdah6"
 apiSecret = "gwGXJdarNB"
@@ -72,8 +84,7 @@ client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
 client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
 track_ids=[]
 limit = "20"
-
-playlist_id = "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:6HgvHLnb2O6XzwfVSAGcI9"
+##################################################################################################################################################\
 token = util.prompt_for_user_token(username, scope, client_id=client_id, client_secret = client_secret , redirect_uri="http://google.com/")
 
 sp = spotipy.Spotify(auth=token)
@@ -87,6 +98,18 @@ sp.trace = False
 #possibly print for decoding purposes
 unixTime = int(time.time())
 #print(unixTime)
+#create a value for the signature to hash / print for decoding purposes
+sig = apiKey+apiSecret+str(unixTime)
+#print("signature before md5 hash: ", sig)
+
+#hashes the signature for the API call
+m.update(sig.encode('utf8'))
+hashed = m.hexdigest()
+
+#call API
+response = requests.get("http://api.rovicorp.com/data/v1/album/moods?apikey="+apiKey+"&sig="+hashed+"&albumid=MW0000111184")
+status = response.status_code
+response_text = response.text
 
 ##################################################################################################################################################
 #gets the music for relax playlist
@@ -326,7 +349,10 @@ while iter <= int(float(limit)):
 # print(rainuri)
 results = sp.user_playlist_add_tracks(username, rainuri, track_ids)
 ##################################################################################################################################################
-# print(results)
+
+
+##################################################################################################################################################
+# closes all opened files
 outfilerain.close()
 rain.close()
 outfilesunny.close()
@@ -337,23 +363,4 @@ outfileworkout.close()
 workout.close()
 outfilerelax.close()
 relax.close()
-#create a value for the signature to hash / print for decoding purposes
-sig = apiKey+apiSecret+str(unixTime)
-#print("signature before md5 hash: ", sig)
-
-#hashes the signature for the API call
-m.update(sig.encode('utf8'))
-hashed = m.hexdigest()
-
-#print hashed values to know if it is matching
-#print("hashed value", hashed)
-
-#call API
-response = requests.get("http://api.rovicorp.com/data/v1/album/moods?apikey="+apiKey+"&sig="+hashed+"&albumid=MW0000111184")
-status = response.status_code
-response_text = response.text
-
-#figure out how to get back JSON data
-#parse said data to get just the song name and artist name
-# Print the content of the response (the data the server returned)
-#print(response.content)
+##################################################################################################################################################
