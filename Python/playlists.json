@@ -1,0 +1,547 @@
+{
+    "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists?offset=0&limit=20",
+    "items": [
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/73fKcQsJIGDNz2hLuScaPX"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/73fKcQsJIGDNz2hLuScaPX",
+            "id": "73fKcQsJIGDNz2hLuScaPX",
+            "images": [],
+            "name": "Sunny",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MSxmZmJiNjY3NmZmYWEyZmJhYjAyMjRhZDZkMjA1ODhjMzU3Y2EzZTZh",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/73fKcQsJIGDNz2hLuScaPX/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:73fKcQsJIGDNz2hLuScaPX"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/7pLHRiPkBGhq4ZYhrLnLlf"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/7pLHRiPkBGhq4ZYhrLnLlf",
+            "id": "7pLHRiPkBGhq4ZYhrLnLlf",
+            "images": [],
+            "name": "Relax",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MSxjYmZkOTE5ZTUzODNmNjAxYmJhMWFhOTA3MDJmODk1NDg2ZTcwODEz",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/7pLHRiPkBGhq4ZYhrLnLlf/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:7pLHRiPkBGhq4ZYhrLnLlf"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/1LGknCtLWROzgqPqtLeOah"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/1LGknCtLWROzgqPqtLeOah",
+            "id": "1LGknCtLWROzgqPqtLeOah",
+            "images": [],
+            "name": "Rain",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MSw4MGZhZjNjMmMyZmQ3ODVmM2E2YjBjY2M0NjFhMjU4NWU5Nzk4Mjdl",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/1LGknCtLWROzgqPqtLeOah/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:1LGknCtLWROzgqPqtLeOah"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/3QksVC2KjriXZjBU0QX3HQ"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/3QksVC2KjriXZjBU0QX3HQ",
+            "id": "3QksVC2KjriXZjBU0QX3HQ",
+            "images": [],
+            "name": "Work Out",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MSxlNDE3Nzc4OWIyNjM5NmU5NWVhMDU4NzE3NjRjYzFhNTk2MDNmZGVm",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/3QksVC2KjriXZjBU0QX3HQ/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:3QksVC2KjriXZjBU0QX3HQ"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/48rBB0X91y5PYuKw30DVtg"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/48rBB0X91y5PYuKw30DVtg",
+            "id": "48rBB0X91y5PYuKw30DVtg",
+            "images": [],
+            "name": "Sunny",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MSwzNDVkODAxYjQ5MzdjMzIxZjFkZWExMTMzMzE4MDMyZTc1OTAwNGUw",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/48rBB0X91y5PYuKw30DVtg/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:48rBB0X91y5PYuKw30DVtg"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/3OBAXi2znizBUQRXeQuT8k"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/3OBAXi2znizBUQRXeQuT8k",
+            "id": "3OBAXi2znizBUQRXeQuT8k",
+            "images": [],
+            "name": "Relax",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MSxlMzY3MjkyMWUyYTZjZGUxMmVlZGU5MGY3NjllYWExNjY3ZWViMGEy",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/3OBAXi2znizBUQRXeQuT8k/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:3OBAXi2znizBUQRXeQuT8k"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/0Uc1HAiuy3Z6TDUSUf9tPM"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/0Uc1HAiuy3Z6TDUSUf9tPM",
+            "id": "0Uc1HAiuy3Z6TDUSUf9tPM",
+            "images": [],
+            "name": "Rain",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MSxmMzVhYmM0NjIxYzhlNzllMjVlNjE2ZjBkYjFhYTg2NmRlZTVlZTc0",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/0Uc1HAiuy3Z6TDUSUf9tPM/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:0Uc1HAiuy3Z6TDUSUf9tPM"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/0UypIj1LkZSw3zJ0XgPY8M"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/0UypIj1LkZSw3zJ0XgPY8M",
+            "id": "0UypIj1LkZSw3zJ0XgPY8M",
+            "images": [],
+            "name": "Work Out",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MSw1NTgzZmViNDgzZmU1NmE5MzRjMTJhNjY2NGQzOTAwMzljZTg1MWE3",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/0UypIj1LkZSw3zJ0XgPY8M/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:0UypIj1LkZSw3zJ0XgPY8M"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/6hRNwhB18JJ0NmBuOYYume"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/6hRNwhB18JJ0NmBuOYYume",
+            "id": "6hRNwhB18JJ0NmBuOYYume",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 60
+                }
+            ],
+            "name": "Sunny",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "Myw4YTI1ZWZlZTBhYzk2NmVjNWUwMWZhZjgxZGM1NzBlOTdmYzlkMTJh",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/6hRNwhB18JJ0NmBuOYYume/tracks",
+                "total": 160
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:6hRNwhB18JJ0NmBuOYYume"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/1l84dSulA2ZI6vfYCYeedW"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/1l84dSulA2ZI6vfYCYeedW",
+            "id": "1l84dSulA2ZI6vfYCYeedW",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 60
+                }
+            ],
+            "name": "Relax",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MywxMmYwYmUzNTM0NjdjYjYwN2MxNjJmNzEyNGE5NmY5ODI4MjgzYWE5",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/1l84dSulA2ZI6vfYCYeedW/tracks",
+                "total": 80
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:1l84dSulA2ZI6vfYCYeedW"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/1ZnDh6pAerd1MWd0f1aTuT"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/1ZnDh6pAerd1MWd0f1aTuT",
+            "id": "1ZnDh6pAerd1MWd0f1aTuT",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 60
+                }
+            ],
+            "name": "Rain",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MyxkMWE0M2U2Njc0ZTU2NDcyZjJjM2E2YzZiYTcyNTc5Yjg3OWM1MmI5",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/1ZnDh6pAerd1MWd0f1aTuT/tracks",
+                "total": 200
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:1ZnDh6pAerd1MWd0f1aTuT"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/17F0XBJRcATbxrbjp6tJa3"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/17F0XBJRcATbxrbjp6tJa3",
+            "id": "17F0XBJRcATbxrbjp6tJa3",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 60
+                }
+            ],
+            "name": "Work Out",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MyxhN2I1M2NjYWJkMmMyMWUzNjY1ZWVjNTEzNDkwNzBmZTM3ZWRhNjJj",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/17F0XBJRcATbxrbjp6tJa3/tracks",
+                "total": 120
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:17F0XBJRcATbxrbjp6tJa3"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/2J1z7FjnTTrmp2ilJJTzap"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/2J1z7FjnTTrmp2ilJJTzap",
+            "id": "2J1z7FjnTTrmp2ilJJTzap",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/01bb4663dcfa3b8b4fd405ef493dfe447805aa57a0cc32f19915fd3702e59e03d11a065d5501f494b1726c4ceb855e74841bbfe50aaa0c7aec6a54d0b3794a3323bb0b55266b3e949ad99a055556dc87",
+                    "width": 60
+                }
+            ],
+            "name": "Work",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MyxiMGFjZDU0MWU2NzhmMDU2MmYxMTNlYzE2NmM1NWU4OGU4OGIyNTQ4",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/2J1z7FjnTTrmp2ilJJTzap/tracks",
+                "total": 40
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:2J1z7FjnTTrmp2ilJJTzap"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg/playlist/6aGJtJdqtupkI2bEeGYXAN"
+            },
+            "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/6aGJtJdqtupkI2bEeGYXAN",
+            "id": "6aGJtJdqtupkI2bEeGYXAN",
+            "images": [
+                {
+                    "height": 640,
+                    "url": "https://mosaic.scdn.co/640/7683bcf0385767362266d963876c79b6f0390020949dc85891e9cbf978dd4c35aeef11477b077a79b56eb8fcc026c03907cc58b412435348738c48dfd5e98d7ec69f04377b8812a7f441c490a7666c20",
+                    "width": 640
+                },
+                {
+                    "height": 300,
+                    "url": "https://mosaic.scdn.co/300/7683bcf0385767362266d963876c79b6f0390020949dc85891e9cbf978dd4c35aeef11477b077a79b56eb8fcc026c03907cc58b412435348738c48dfd5e98d7ec69f04377b8812a7f441c490a7666c20",
+                    "width": 300
+                },
+                {
+                    "height": 60,
+                    "url": "https://mosaic.scdn.co/60/7683bcf0385767362266d963876c79b6f0390020949dc85891e9cbf978dd4c35aeef11477b077a79b56eb8fcc026c03907cc58b412435348738c48dfd5e98d7ec69f04377b8812a7f441c490a7666c20",
+                    "width": 60
+                }
+            ],
+            "name": "Straight up Shannon",
+            "owner": {
+                "display_name": "Danny",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/h0m596l5gz014wayiyy29p0gg"
+                },
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg",
+                "id": "h0m596l5gz014wayiyy29p0gg",
+                "type": "user",
+                "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MjgsNzhiMTA2N2ZhOTU2YTc5NjI5YmM0NWRkMWI2NTIwNTFkM2UzMTlhYQ==",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/h0m596l5gz014wayiyy29p0gg/playlists/6aGJtJdqtupkI2bEeGYXAN/tracks",
+                "total": 26
+            },
+            "type": "playlist",
+            "uri": "spotify:user:h0m596l5gz014wayiyy29p0gg:playlist:6aGJtJdqtupkI2bEeGYXAN"
+        },
+        {
+            "collaborative": false,
+            "external_urls": {
+                "spotify": "https://open.spotify.com/user/spotifycharts/playlist/37i9dQZEVXbLRQDuF5jeBp"
+            },
+            "href": "https://api.spotify.com/v1/users/spotifycharts/playlists/37i9dQZEVXbLRQDuF5jeBp",
+            "id": "37i9dQZEVXbLRQDuF5jeBp",
+            "images": [
+                {
+                    "height": null,
+                    "url": "https://charts-images.scdn.co/REGIONAL_US_DEFAULT.jpg",
+                    "width": null
+                }
+            ],
+            "name": "United States Top 50",
+            "owner": {
+                "display_name": null,
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/spotifycharts"
+                },
+                "href": "https://api.spotify.com/v1/users/spotifycharts",
+                "id": "spotifycharts",
+                "type": "user",
+                "uri": "spotify:user:spotifycharts"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "NTg2OTU3MzgyLDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDY1NmU=",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/users/spotifycharts/playlists/37i9dQZEVXbLRQDuF5jeBp/tracks",
+                "total": 50
+            },
+            "type": "playlist",
+            "uri": "spotify:user:spotifycharts:playlist:37i9dQZEVXbLRQDuF5jeBp"
+        }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 15
+}
