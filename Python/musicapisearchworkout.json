@@ -1,0 +1,733 @@
+{
+    "tracks": {
+        "@attr": {
+            "page": "1",
+            "perPage": "20",
+            "tag": "Rap",
+            "total": "103294",
+            "totalPages": "5165"
+        },
+        "track": [
+            {
+                "@attr": {
+                    "rank": "1"
+                },
+                "artist": {
+                    "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+                    "name": "Kanye West",
+                    "url": "https://www.last.fm/music/Kanye+West"
+                },
+                "duration": "314",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "a7ddf553-673a-4d4e-96cc-d5a4bca6af2d",
+                "name": "Stronger",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Kanye+West/_/Stronger"
+            },
+            {
+                "@attr": {
+                    "rank": "2"
+                },
+                "artist": {
+                    "mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
+                    "name": "Gorillaz",
+                    "url": "https://www.last.fm/music/Gorillaz"
+                },
+                "duration": "339",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/36422c10f46150b432a7d0ddbc87c5d3.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/36422c10f46150b432a7d0ddbc87c5d3.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/36422c10f46150b432a7d0ddbc87c5d3.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/36422c10f46150b432a7d0ddbc87c5d3.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "77032ab7-10b3-4275-af00-9568ba3f47e3",
+                "name": "Clint Eastwood",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Gorillaz/_/Clint+Eastwood"
+            },
+            {
+                "@attr": {
+                    "rank": "3"
+                },
+                "artist": {
+                    "mbid": "",
+                    "name": "Lil' Wayne",
+                    "url": "https://www.last.fm/music/Lil%27+Wayne"
+                },
+                "duration": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/97fceb73d43743539060f2601d3a730a.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/97fceb73d43743539060f2601d3a730a.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/97fceb73d43743539060f2601d3a730a.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/97fceb73d43743539060f2601d3a730a.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "",
+                "name": "Lollipop",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Lil%27+Wayne/_/Lollipop"
+            },
+            {
+                "@attr": {
+                    "rank": "4"
+                },
+                "artist": {
+                    "mbid": "b49b81cc-d5b7-4bdd-aadb-385df8de69a6",
+                    "name": "Drake",
+                    "url": "https://www.last.fm/music/Drake"
+                },
+                "duration": "257",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/4b85b685286d6aa0173809ad132403d5.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/4b85b685286d6aa0173809ad132403d5.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/4b85b685286d6aa0173809ad132403d5.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/4b85b685286d6aa0173809ad132403d5.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "00bde944-7562-446f-ad0f-3d4bdc86b69f",
+                "name": "Best I Ever Had",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Drake/_/Best+I+Ever+Had"
+            },
+            {
+                "@attr": {
+                    "rank": "5"
+                },
+                "artist": {
+                    "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+                    "name": "Kanye West",
+                    "url": "https://www.last.fm/music/Kanye+West"
+                },
+                "duration": "209",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "a9c00a70-bbf1-4a19-be7e-bdb2d4daf456",
+                "name": "Heartless",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Kanye+West/_/Heartless"
+            },
+            {
+                "@attr": {
+                    "rank": "6"
+                },
+                "artist": {
+                    "mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+                    "name": "50 Cent",
+                    "url": "https://www.last.fm/music/50+Cent"
+                },
+                "duration": "193",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/dd6b7ab5e6004aa1822674d39d7a671d.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/dd6b7ab5e6004aa1822674d39d7a671d.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/dd6b7ab5e6004aa1822674d39d7a671d.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/dd6b7ab5e6004aa1822674d39d7a671d.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "1d44a435-ec6d-4952-8dc9-e78df329c129",
+                "name": "In Da Club",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/50+Cent/_/In+Da+Club"
+            },
+            {
+                "@attr": {
+                    "rank": "7"
+                },
+                "artist": {
+                    "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+                    "name": "Eminem",
+                    "url": "https://www.last.fm/music/Eminem"
+                },
+                "duration": "320",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "f207eac0-829f-41e5-9dc9-d7c3263de3ed",
+                "name": "Lose Yourself",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Eminem/_/Lose+Yourself"
+            },
+            {
+                "@attr": {
+                    "rank": "8"
+                },
+                "artist": {
+                    "mbid": "73fdb566-a9b1-494c-9f32-51768ec9fd27",
+                    "name": "OutKast",
+                    "url": "https://www.last.fm/music/OutKast"
+                },
+                "duration": "271",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/362568f269f14182a7f04458fb09f95e.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/362568f269f14182a7f04458fb09f95e.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/362568f269f14182a7f04458fb09f95e.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/362568f269f14182a7f04458fb09f95e.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "65493c37-6583-4f7d-bb9c-56d07487da1a",
+                "name": "Ms. Jackson",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/OutKast/_/Ms.+Jackson"
+            },
+            {
+                "@attr": {
+                    "rank": "9"
+                },
+                "artist": {
+                    "mbid": "f7ba7fbe-c6bd-4ac0-bee9-c25c558d7d62",
+                    "name": "T.I.",
+                    "url": "https://www.last.fm/music/T.I."
+                },
+                "duration": "250",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/b38c8deb6bea4307a40b39f3f4c7b544.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/b38c8deb6bea4307a40b39f3f4c7b544.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/b38c8deb6bea4307a40b39f3f4c7b544.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/b38c8deb6bea4307a40b39f3f4c7b544.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "20b36a3e-a245-4b84-b2cd-7fd93f3c2f3e",
+                "name": "Whatever You Like",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/T.I./_/Whatever+You+Like"
+            },
+            {
+                "@attr": {
+                    "rank": "10"
+                },
+                "artist": {
+                    "mbid": "f82bcf78-5b69-4622-a5ef-73800768d9ac",
+                    "name": "Jay-Z",
+                    "url": "https://www.last.fm/music/Jay-Z"
+                },
+                "duration": "235",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/e679d51e3f574dbdb476b6dd7b695530.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/e679d51e3f574dbdb476b6dd7b695530.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/e679d51e3f574dbdb476b6dd7b695530.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/e679d51e3f574dbdb476b6dd7b695530.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "9ba09131-d893-4c43-875f-9612c32ed1f4",
+                "name": "99 Problems",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Jay-Z/_/99+Problems"
+            },
+            {
+                "@attr": {
+                    "rank": "11"
+                },
+                "artist": {
+                    "mbid": "5f6ab597-f57a-40da-be9e-adad48708203",
+                    "name": "Dr. Dre",
+                    "url": "https://www.last.fm/music/Dr.+Dre"
+                },
+                "duration": "268",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c7a7f20fb31b429383ddf70e7473df5c.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c7a7f20fb31b429383ddf70e7473df5c.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c7a7f20fb31b429383ddf70e7473df5c.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c7a7f20fb31b429383ddf70e7473df5c.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "2b5d868a-bb49-4f1c-baca-59cb0ddb6a52",
+                "name": "Still D.R.E.",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Dr.+Dre/_/Still+D.R.E."
+            },
+            {
+                "@attr": {
+                    "rank": "12"
+                },
+                "artist": {
+                    "mbid": "73fdb566-a9b1-494c-9f32-51768ec9fd27",
+                    "name": "OutKast",
+                    "url": "https://www.last.fm/music/OutKast"
+                },
+                "duration": "233",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/362568f269f14182a7f04458fb09f95e.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/362568f269f14182a7f04458fb09f95e.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/362568f269f14182a7f04458fb09f95e.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/362568f269f14182a7f04458fb09f95e.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "2d753fb3-70c9-4499-beac-285c47fb5a1e",
+                "name": "Hey Ya!",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/OutKast/_/Hey+Ya%21"
+            },
+            {
+                "@attr": {
+                    "rank": "13"
+                },
+                "artist": {
+                    "mbid": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+                    "name": "Ice Cube",
+                    "url": "https://www.last.fm/music/Ice+Cube"
+                },
+                "duration": "267",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2bcec14c1643438cb185d92628ee666d.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2bcec14c1643438cb185d92628ee666d.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2bcec14c1643438cb185d92628ee666d.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2bcec14c1643438cb185d92628ee666d.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "92deb0a9-edc6-4fe0-a55d-e6cd5b5160f5",
+                "name": "It Was A Good Day",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Ice+Cube/_/It+Was+A+Good+Day"
+            },
+            {
+                "@attr": {
+                    "rank": "14"
+                },
+                "artist": {
+                    "mbid": "d5d97b2b-b83b-4976-814a-056d9076c8c3",
+                    "name": "The Notorious B.I.G.",
+                    "url": "https://www.last.fm/music/The+Notorious+B.I.G."
+                },
+                "duration": "303",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/ed6638770c414d0f87f3230a7a3c0d75.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/ed6638770c414d0f87f3230a7a3c0d75.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/ed6638770c414d0f87f3230a7a3c0d75.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/ed6638770c414d0f87f3230a7a3c0d75.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "29317d21-8369-41d3-b239-89f874c6f672",
+                "name": "Juicy",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/The+Notorious+B.I.G./_/Juicy"
+            },
+            {
+                "@attr": {
+                    "rank": "15"
+                },
+                "artist": {
+                    "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+                    "name": "Eminem",
+                    "url": "https://www.last.fm/music/Eminem"
+                },
+                "duration": "290",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "2d0e1136-a36e-432f-a618-7f75a110bca8",
+                "name": "Without Me",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Eminem/_/Without+Me"
+            },
+            {
+                "@attr": {
+                    "rank": "16"
+                },
+                "artist": {
+                    "mbid": "5f6ab597-f57a-40da-be9e-adad48708203",
+                    "name": "Dr. Dre",
+                    "url": "https://www.last.fm/music/Dr.+Dre"
+                },
+                "duration": "161",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c7a7f20fb31b429383ddf70e7473df5c.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c7a7f20fb31b429383ddf70e7473df5c.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c7a7f20fb31b429383ddf70e7473df5c.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c7a7f20fb31b429383ddf70e7473df5c.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "e9e419f3-a36d-46e0-83d0-b97bea8957eb",
+                "name": "The Next Episode",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Dr.+Dre/_/The+Next+Episode"
+            },
+            {
+                "@attr": {
+                    "rank": "17"
+                },
+                "artist": {
+                    "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+                    "name": "Kanye West",
+                    "url": "https://www.last.fm/music/Kanye+West"
+                },
+                "duration": "270",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "1b2ad016-69bf-417a-837f-719c809f4d6d",
+                "name": "Love Lockdown",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Kanye+West/_/Love+Lockdown"
+            },
+            {
+                "@attr": {
+                    "rank": "18"
+                },
+                "artist": {
+                    "mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+                    "name": "Kanye West",
+                    "url": "https://www.last.fm/music/Kanye+West"
+                },
+                "duration": "275",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/480d62aa92580f22d26e0a9092cf4ccc.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "4efea515-d670-4715-b99c-71df72f980fa",
+                "name": "Can't Tell Me Nothing",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Kanye+West/_/Can%27t+Tell+Me+Nothing"
+            },
+            {
+                "@attr": {
+                    "rank": "19"
+                },
+                "artist": {
+                    "mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+                    "name": "Eminem",
+                    "url": "https://www.last.fm/music/Eminem"
+                },
+                "duration": "284",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7e8f5298d7a546d1bdcdba37a8456a68.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "684ca01c-9775-42fe-9cdb-28fa37c27851",
+                "name": "The Real Slim Shady",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Eminem/_/The+Real+Slim+Shady"
+            },
+            {
+                "@attr": {
+                    "rank": "20"
+                },
+                "artist": {
+                    "mbid": "d5be5333-4171-427e-8e12-732087c6b78e",
+                    "name": "Black Eyed Peas",
+                    "url": "https://www.last.fm/music/Black+Eyed+Peas"
+                },
+                "duration": "0",
+                "image": [
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/8974bee958414dc4cd3996ab92135790.png",
+                        "size": "small"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/8974bee958414dc4cd3996ab92135790.png",
+                        "size": "medium"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/8974bee958414dc4cd3996ab92135790.png",
+                        "size": "large"
+                    },
+                    {
+                        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/8974bee958414dc4cd3996ab92135790.png",
+                        "size": "extralarge"
+                    }
+                ],
+                "mbid": "",
+                "name": "Boom Boom Pow",
+                "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                },
+                "url": "https://www.last.fm/music/Black+Eyed+Peas/_/Boom+Boom+Pow"
+            }
+        ]
+    }
+}
