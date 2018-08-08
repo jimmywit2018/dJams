@@ -24,8 +24,10 @@ db = client.dJamsDB
 coll_pref = db.MusicPref
 ##################################################################################################################################################
 
-#define the scope of what class is allowed to do
+#define the scope of what class is allowed to do as well as the client_id and secret
 scope = 'playlist-modify-public'
+client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
+client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
 
 #asks user for name of desired playlist, will change when code is melded with jimmys
 #playlist_name = input("What is the name of the playlist you wish to create? : ")
@@ -42,12 +44,8 @@ query_results = json.loads(query_results)
 username = query_results['username']
 ##################################################################################################################################################
 
-client_id = 'b7642ea152d44cbf95e9d7efd223cc49'
-client_secret = '1094e61f08a845a6b1e9a651fe9a1e2b'
-
 #set up the Spotipy API for creating of playlists
 token = util.prompt_for_user_token(username, scope=scope, client_id=client_id, client_secret = client_secret, redirect_uri="http://google.com/")
-
 sp = spotipy.Spotify(auth=token)
 
 ##################################################################################################################################################

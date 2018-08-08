@@ -10,17 +10,15 @@ from pprint import pprint
 import json
 import re
 
+##################################################################################################################################################
+#sets up the connection to mongodb
 client = pymongo.MongoClient("mongodb+srv://dannyzidelis:DJAMSdurga1!@djamscluster-u6bx0.mongodb.net/dJamsDB")
-
 db = client.dJamsDB
-
-coll = db.ScheduledTimes
+coll_times = db.ScheduledTimes
 with open(r'C:\Users\zidel\Documents\GitHub\dJams\templates\example.json') as infile:
      example = json.loads(infile.read())
 email = example['email'][0]
-# print(email)
-#print(client.database_names())
-#print(coll)
+##################################################################################################################################################
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
@@ -79,21 +77,21 @@ def main():
         #selects what goes into the database
         if event['summary'].upper() == "WORK":
             sched_rec = {"email": email, "name":event['summary'], "startdate": startdate, "enddate": enddate, "starttime":starttime,"endtime":endtime}
-            rec_id = coll.insert_one(sched_rec)
+            rec_id = coll_times.insert_one(sched_rec)
             #print("Data inserted with record ids", rec_id)
         elif event['summary'].upper() == "WORK OUT":
             sched_rec = {"email": email, "name":event['summary'], "startdate": startdate, "enddate": enddate, "starttime":starttime,"endtime":endtime}
-            rec_id = coll.insert_one(sched_rec)
+            rec_id = coll_times.insert_one(sched_rec)
             #print("Data inserted with record ids", rec_id)
         elif event['summary'].upper() == "GYM":
             sched_rec = {"email": email, "name":event['summary'], "startdate": startdate, "enddate": enddate, "starttime":starttime,"endtime":endtime}
-            rec_id = coll.insert_one(sched_rec)
+            rec_id = coll_times.insert_one(sched_rec)
             #print("Data inserted with record ids", rec_id)
         elif event['summary'].upper() == "RELAX":
             sched_rec = {"email": email, "name":event['summary'], "startdate": startdate, "enddate": enddate, "starttime":starttime,"endtime":endtime}
-            rec_id = coll.insert_one(sched_rec)
+            rec_id = coll_times.insert_one(sched_rec)
             #print("Data inserted with record ids", rec_id)
-    # cursor = coll.find()
+    # cursor = coll_times.find()
     # for record in cursor:
     #     print(record)
     # print(startdate, starttime)
