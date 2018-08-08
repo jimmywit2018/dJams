@@ -60,18 +60,23 @@ for track in dataplaylist['items']:
         if playlist_name == "Relax":
             playlist_rec = {"username": username, "email": email, "Playlist Name":"Relax", "PlaylistID": playlist_id, "PlaylistURI": playlist_uri}
             rec_id = coll_out.insert_one(playlist_rec)
+            print(playlist_name, " inserted into the database")
         elif playlist_name == "Rain":
             playlist_rec = {"username": username, "email": email, "Playlist Name":"Rain", "PlaylistID": playlist_id, "PlaylistURI": playlist_uri}
             rec_id = coll_out.insert_one(playlist_rec)
+            print(playlist_name, " inserted into the database")
         elif playlist_name == "Work Out":
             playlist_rec = {"username": username, "email": email, "Playlist Name":"Work Out", "PlaylistID": playlist_id, "PlaylistURI": playlist_uri}
             rec_id = coll_out.insert_one(playlist_rec)
+            print(playlist_name, " inserted into the database")
         elif playlist_name == "Work":
             playlist_rec = {"username": username, "email": email, "Playlist Name":"Work", "PlaylistID": playlist_id, "PlaylistURI": playlist_uri}
-            rec_id = coll_out.insert_one(playlist_rec)
+            rec_id = coll_out.insert_one(playlist_rec
+            print(playlist_name, " inserted into the database")
         elif playlist_name == "Sunny":
             playlist_rec = {"username": username, "email": email, "Playlist Name":"Sunny", "PlaylistID": playlist_id, "PlaylistURI": playlist_uri}
             rec_id = coll_out.insert_one(playlist_rec)
+            print(playlist_name, " inserted into the database")
         iter= iter+1
 # print(items)
 # outfile.close()
