@@ -1,22 +1,71 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel ="stylesheet" type="text/css" href="mainpage.css">
-</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/logout">Log Out</a>
+      </li>
 
 
 
+    </ul>
+  </div>
+</nav>
+
+
+{% block body %}
 <body onload ="getLocation();">
   <!-- Loads location from latlong.js-->
 
 
+<style>
+.column {
+    float: right;
+    padding:8px;
+    width: 30%;
 
+}
+
+.middle {
+	width: 35%;
+  padding:8px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+  position:relative;
+  bottom:200px;
+}
+
+body {
+    background-image: url("http://puu.sh/BdtOt/21ee7fbf71.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+</style>
 
 <!-- for Firebase -->
   <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
   <script>
-setTimeout(func, 5000)
     var config = {
       apiKey: "AIzaSyDUuFg9VXZqF7ISzGyuY-an5VncrGJWEO0",
       authDomain: "djamsproject.firebaseapp.com",
@@ -29,18 +78,19 @@ setTimeout(func, 5000)
   </script>
 
 <!-- calls for name, time, and location-->
-<h2>
+<h4>
  <center>
-     <h1>Hello <span id="clientName"></span></h1>
      <p> The time is currently: <span id="clock"></span> </p>
      <p id="latlong"></p>
 
-</h2>
+</h4>
 
 
 
 
-<div class="row">
+
+
+<div class="row" width=100%>
 
 <!-- left column for Google calendar -->
  <div class="column ">
@@ -52,30 +102,28 @@ setTimeout(func, 5000)
    <div class="column middle">
      <h2><center></h2>
      <center>
-   <iframe src="https://open.spotify.com/embed/user/22mmmryb7wjhxmyo3xq724fzi/playlist/15Hialvu2gTRntOQWQQ4Aq" width="500" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
-
-
+   <iframe src="https://open.spotify.com/embed/user/h0m596l5gz014wayiyy29p0gg/playlist/2J1z7FjnTTrmp2ilJJTzap" width="500" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-   <div id="logo">
+<img class ='logo' src='http://puu.sh/BdtvF/4e449f06b9.png' height="150" width="350">
 
-   <img src="images/djams_image.png" alt="logo" id="logo" />
-    </div>
+
+
    </div>
 
 
-   <div class="footer">
-      <div class="text-center">
-        <font size="5">
-        <a href="mainpage.html">Home</a>
-        |
-        <a href="aboutus.html">About dJams</a>
-        |
-        <a href="logout.html">Log Out</a>
-      </div>
-    </div>
+
+
+
 
 
 
@@ -86,16 +134,58 @@ setTimeout(func, 5000)
  <a class="weatherwidget-io" href="https://forecast7.com/en/42d36n71d06/boston/?unit=us" data-label_1="BOSTON" data-label_2="WEATHER" data-theme="original" ></a>
 </div>
 
-
+</body>
 <!-- all JS calls-->
-<script src="mainpage.js"></script>
-<script src="mainpage2.js"></script>
-<script src="time.js"></script>
-<script src="latlong.js"></script>
-<script src="firebase.js"></script>
 
 
 
+<script>
+window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
+window.myWidgetParam.push({
+    id: 5,
+    cityid: '4930956',
+    appid: '64e1289a90c76ae161b66981615e5d2d',
+    units: 'imperial',
+    containerid: 'openweathermap-widget-5',
+});
+(function() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.charset = "utf-8";
+    script.src = "https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(script, s);
+    s.style.textAlign = 'center';
+})();
+</script>
+<script>
+
+    ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://weatherwidget.io/js/widget.min.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'weatherwidget-io-js');
+</script>
+
+<script>
+(function () {
+
+  var clockElement = document.getElementById( "clock" );
+
+  function updateClock ( clock ) {
+    clock.innerHTML = new Date().toLocaleTimeString();
+  }
+
+  setInterval(function () {
+      updateClock( clockElement );
+  }, 1000);
+
+}());
+</script>
 
 <!-- Script for calling firebase to get user ID -->
 <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
@@ -129,7 +219,7 @@ function login() {
 
 
   function app(user) {
-    document.getElementById("clientName").innerHTML += user.displayName;
+    document.getElementById("clientName")
   }
 
   window.onload = login;
@@ -152,5 +242,4 @@ function login() {
   }
 </script>
 
-
-</html>
+{% endblock %}
