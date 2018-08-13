@@ -38,10 +38,5 @@ def CreatePlaylist():
 def AddSongs():
     return render_template('AddSongs.py')
 
-@app.route('/djams_image')
-def djams_image():
-    return render_template('djams_image.png')
-##placeholder for current module
-
 if __name__ == '__main__':
         app.run(debug=True)
